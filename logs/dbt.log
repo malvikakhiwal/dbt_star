@@ -69,3 +69,2226 @@
 [0m06:02:54.500756 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10867c580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10867c2b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10867c490>]}
 [0m06:02:54.501548 [debug] [MainThread]: Flushing usage events
 [0m06:02:54.741092 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-11-23 06:06:04.823228 | ff811ee7-9df7-4570-b032-0782a830afda ==============================
+[0m06:06:04.823233 [info ] [MainThread]: Running with dbt=1.3.0
+[0m06:06:04.823408 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/jitesh.soni/Documents/Code/dbt_star', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m06:06:04.823471 [debug] [MainThread]: Tracking: tracking
+[0m06:06:04.843945 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107934f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107911e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107934550>]}
+[0m06:06:05.179621 [debug] [MainThread]: Executing "git --help"
+[0m06:06:05.204750 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m06:06:05.205085 [debug] [MainThread]: STDERR: "b''"
+[0m06:06:05.208327 [debug] [MainThread]: Acquiring new bigquery connection "debug"
+[0m06:06:05.209028 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m06:06:05.639858 [debug] [MainThread]: On debug: select 1 as id
+[0m06:06:06.723435 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=ae-recruitment-sandbox&j=bq:b8311516-5fde-4f5b-b5fd-2855ea9e712b:northamerica-northeast1&page=queryresults
+[0m06:06:06.724001 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11a184760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11a1847c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11a1846d0>]}
+[0m06:06:06.724269 [debug] [MainThread]: Flushing usage events
+[0m06:06:06.983414 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-11-23 06:09:26.779660 | 58f55463-1c57-41dd-884a-3e806144a50c ==============================
+[0m06:09:26.779689 [info ] [MainThread]: Running with dbt=1.3.0
+[0m06:09:26.780043 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/jitesh.soni/Documents/Code/dbt_star', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m06:09:26.780125 [debug] [MainThread]: Tracking: tracking
+[0m06:09:26.800549 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111cd3850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111cd39d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111cd3970>]}
+[0m06:09:26.808878 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+[0m06:09:26.809058 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '58f55463-1c57-41dd-884a-3e806144a50c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111e03ac0>]}
+[0m06:09:26.839422 [debug] [MainThread]: Parsing macros/etc.sql
+[0m06:09:26.840761 [debug] [MainThread]: Parsing macros/catalog.sql
+[0m06:09:26.844512 [debug] [MainThread]: Parsing macros/adapters.sql
+[0m06:09:26.855517 [debug] [MainThread]: Parsing macros/materializations/seed.sql
+[0m06:09:26.856704 [debug] [MainThread]: Parsing macros/materializations/view.sql
+[0m06:09:26.858055 [debug] [MainThread]: Parsing macros/materializations/table.sql
+[0m06:09:26.861924 [debug] [MainThread]: Parsing macros/materializations/copy.sql
+[0m06:09:26.863220 [debug] [MainThread]: Parsing macros/materializations/incremental.sql
+[0m06:09:26.872067 [debug] [MainThread]: Parsing macros/materializations/snapshot.sql
+[0m06:09:26.872835 [debug] [MainThread]: Parsing macros/utils/except.sql
+[0m06:09:26.873003 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m06:09:26.873294 [debug] [MainThread]: Parsing macros/utils/timestamps.sql
+[0m06:09:26.873784 [debug] [MainThread]: Parsing macros/utils/intersect.sql
+[0m06:09:26.873945 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m06:09:26.874205 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m06:09:26.874503 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m06:09:26.874988 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m06:09:26.875561 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m06:09:26.875786 [debug] [MainThread]: Parsing macros/utils/hash.sql
+[0m06:09:26.876013 [debug] [MainThread]: Parsing macros/utils/position.sql
+[0m06:09:26.876256 [debug] [MainThread]: Parsing macros/utils/array_concat.sql
+[0m06:09:26.876486 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m06:09:26.876680 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m06:09:26.877430 [debug] [MainThread]: Parsing macros/utils/date_trunc.sql
+[0m06:09:26.877678 [debug] [MainThread]: Parsing macros/utils/array_construct.sql
+[0m06:09:26.878070 [debug] [MainThread]: Parsing macros/utils/array_append.sql
+[0m06:09:26.878346 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m06:09:26.879568 [debug] [MainThread]: Parsing macros/materializations/hooks.sql
+[0m06:09:26.881388 [debug] [MainThread]: Parsing macros/materializations/configs.sql
+[0m06:09:26.882452 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot_merge.sql
+[0m06:09:26.883242 [debug] [MainThread]: Parsing macros/materializations/snapshots/strategies.sql
+[0m06:09:26.891438 [debug] [MainThread]: Parsing macros/materializations/snapshots/helpers.sql
+[0m06:09:26.898891 [debug] [MainThread]: Parsing macros/materializations/snapshots/snapshot.sql
+[0m06:09:26.905659 [debug] [MainThread]: Parsing macros/materializations/tests/test.sql
+[0m06:09:26.907907 [debug] [MainThread]: Parsing macros/materializations/tests/helpers.sql
+[0m06:09:26.908758 [debug] [MainThread]: Parsing macros/materializations/tests/where_subquery.sql
+[0m06:09:26.909674 [debug] [MainThread]: Parsing macros/materializations/models/incremental/column_helpers.sql
+[0m06:09:26.913747 [debug] [MainThread]: Parsing macros/materializations/models/incremental/merge.sql
+[0m06:09:26.922521 [debug] [MainThread]: Parsing macros/materializations/models/incremental/is_incremental.sql
+[0m06:09:26.923252 [debug] [MainThread]: Parsing macros/materializations/models/incremental/strategies.sql
+[0m06:09:26.926748 [debug] [MainThread]: Parsing macros/materializations/models/incremental/incremental.sql
+[0m06:09:26.932024 [debug] [MainThread]: Parsing macros/materializations/models/incremental/on_schema_change.sql
+[0m06:09:26.941722 [debug] [MainThread]: Parsing macros/materializations/models/table/table.sql
+[0m06:09:26.944510 [debug] [MainThread]: Parsing macros/materializations/models/table/create_table_as.sql
+[0m06:09:26.946205 [debug] [MainThread]: Parsing macros/materializations/models/view/view.sql
+[0m06:09:26.948938 [debug] [MainThread]: Parsing macros/materializations/models/view/helpers.sql
+[0m06:09:26.949591 [debug] [MainThread]: Parsing macros/materializations/models/view/create_or_replace_view.sql
+[0m06:09:26.951271 [debug] [MainThread]: Parsing macros/materializations/models/view/create_view_as.sql
+[0m06:09:26.952406 [debug] [MainThread]: Parsing macros/materializations/seeds/seed.sql
+[0m06:09:26.956116 [debug] [MainThread]: Parsing macros/materializations/seeds/helpers.sql
+[0m06:09:26.966490 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_alias.sql
+[0m06:09:26.967253 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_schema.sql
+[0m06:09:26.968430 [debug] [MainThread]: Parsing macros/get_custom_name/get_custom_database.sql
+[0m06:09:26.969162 [debug] [MainThread]: Parsing macros/generic_test_sql/relationships.sql
+[0m06:09:26.969575 [debug] [MainThread]: Parsing macros/generic_test_sql/not_null.sql
+[0m06:09:26.969947 [debug] [MainThread]: Parsing macros/generic_test_sql/unique.sql
+[0m06:09:26.970271 [debug] [MainThread]: Parsing macros/generic_test_sql/accepted_values.sql
+[0m06:09:26.970929 [debug] [MainThread]: Parsing macros/etc/statement.sql
+[0m06:09:26.973525 [debug] [MainThread]: Parsing macros/etc/datetime.sql
+[0m06:09:26.977844 [debug] [MainThread]: Parsing macros/utils/except.sql
+[0m06:09:26.978232 [debug] [MainThread]: Parsing macros/utils/replace.sql
+[0m06:09:26.978835 [debug] [MainThread]: Parsing macros/utils/concat.sql
+[0m06:09:26.979281 [debug] [MainThread]: Parsing macros/utils/length.sql
+[0m06:09:26.979711 [debug] [MainThread]: Parsing macros/utils/dateadd.sql
+[0m06:09:26.980292 [debug] [MainThread]: Parsing macros/utils/intersect.sql
+[0m06:09:26.980662 [debug] [MainThread]: Parsing macros/utils/escape_single_quotes.sql
+[0m06:09:26.981156 [debug] [MainThread]: Parsing macros/utils/right.sql
+[0m06:09:26.981759 [debug] [MainThread]: Parsing macros/utils/listagg.sql
+[0m06:09:26.982951 [debug] [MainThread]: Parsing macros/utils/datediff.sql
+[0m06:09:26.983592 [debug] [MainThread]: Parsing macros/utils/safe_cast.sql
+[0m06:09:26.984115 [debug] [MainThread]: Parsing macros/utils/hash.sql
+[0m06:09:26.984618 [debug] [MainThread]: Parsing macros/utils/cast_bool_to_text.sql
+[0m06:09:26.985099 [debug] [MainThread]: Parsing macros/utils/any_value.sql
+[0m06:09:26.985520 [debug] [MainThread]: Parsing macros/utils/position.sql
+[0m06:09:26.986017 [debug] [MainThread]: Parsing macros/utils/literal.sql
+[0m06:09:26.986431 [debug] [MainThread]: Parsing macros/utils/data_types.sql
+[0m06:09:26.989705 [debug] [MainThread]: Parsing macros/utils/array_concat.sql
+[0m06:09:26.990194 [debug] [MainThread]: Parsing macros/utils/bool_or.sql
+[0m06:09:26.990615 [debug] [MainThread]: Parsing macros/utils/last_day.sql
+[0m06:09:26.991479 [debug] [MainThread]: Parsing macros/utils/split_part.sql
+[0m06:09:26.992562 [debug] [MainThread]: Parsing macros/utils/date_trunc.sql
+[0m06:09:26.993044 [debug] [MainThread]: Parsing macros/utils/array_construct.sql
+[0m06:09:26.993736 [debug] [MainThread]: Parsing macros/utils/array_append.sql
+[0m06:09:26.994214 [debug] [MainThread]: Parsing macros/adapters/schema.sql
+[0m06:09:26.995223 [debug] [MainThread]: Parsing macros/adapters/timestamps.sql
+[0m06:09:26.996807 [debug] [MainThread]: Parsing macros/adapters/indexes.sql
+[0m06:09:26.998151 [debug] [MainThread]: Parsing macros/adapters/relation.sql
+[0m06:09:27.005789 [debug] [MainThread]: Parsing macros/adapters/freshness.sql
+[0m06:09:27.006743 [debug] [MainThread]: Parsing macros/adapters/apply_grants.sql
+[0m06:09:27.013445 [debug] [MainThread]: Parsing macros/adapters/persist_docs.sql
+[0m06:09:27.015582 [debug] [MainThread]: Parsing macros/adapters/metadata.sql
+[0m06:09:27.019162 [debug] [MainThread]: Parsing macros/adapters/columns.sql
+[0m06:09:27.024257 [debug] [MainThread]: Parsing macros/python_model/python.sql
+[0m06:09:27.027333 [debug] [MainThread]: Parsing tests/generic/builtin.sql
+[0m06:09:27.161660 [debug] [MainThread]: 1699: static parser successfully parsed example/my_first_dbt_model.sql
+[0m06:09:27.167920 [debug] [MainThread]: 1699: static parser successfully parsed example/my_second_dbt_model.sql
+[0m06:09:27.234817 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.example.example
+
+[0m06:09:27.237897 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '58f55463-1c57-41dd-884a-3e806144a50c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111e98040>]}
+[0m06:09:27.242920 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '58f55463-1c57-41dd-884a-3e806144a50c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111e031c0>]}
+[0m06:09:27.243156 [info ] [MainThread]: Found 2 models, 4 tests, 0 snapshots, 0 analyses, 319 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m06:09:27.243283 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '58f55463-1c57-41dd-884a-3e806144a50c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111e44bb0>]}
+[0m06:09:27.243981 [info ] [MainThread]: 
+[0m06:09:27.244346 [debug] [MainThread]: Acquiring new bigquery connection "master"
+[0m06:09:27.244860 [debug] [ThreadPool]: Acquiring new bigquery connection "list_ae-recruitment-sandbox"
+[0m06:09:27.244985 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m06:09:28.528472 [debug] [ThreadPool]: Acquiring new bigquery connection "list_ae-recruitment-sandbox_dbt_sandbox16"
+[0m06:09:28.528918 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m06:09:28.804338 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '58f55463-1c57-41dd-884a-3e806144a50c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107b47e80>]}
+[0m06:09:28.805995 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m06:09:28.806415 [info ] [MainThread]: 
+[0m06:09:28.815875 [debug] [Thread-1  ]: Began running node model.dbt_star.my_first_dbt_model
+[0m06:09:28.816301 [info ] [Thread-1  ]: 1 of 2 START sql table model dbt_sandbox16.my_first_dbt_model .................. [RUN]
+[0m06:09:28.817036 [debug] [Thread-1  ]: Acquiring new bigquery connection "model.dbt_star.my_first_dbt_model"
+[0m06:09:28.817197 [debug] [Thread-1  ]: Began compiling node model.dbt_star.my_first_dbt_model
+[0m06:09:28.817390 [debug] [Thread-1  ]: Compiling model.dbt_star.my_first_dbt_model
+[0m06:09:28.822188 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_star.my_first_dbt_model"
+[0m06:09:28.823843 [debug] [Thread-1  ]: finished collecting timing info
+[0m06:09:28.824044 [debug] [Thread-1  ]: Began executing node model.dbt_star.my_first_dbt_model
+[0m06:09:28.859141 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_star.my_first_dbt_model"
+[0m06:09:28.860394 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m06:09:28.860527 [debug] [Thread-1  ]: On model.dbt_star.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.3.0", "profile_name": "ae-recruitment-exercise16", "target_name": "dev", "node_id": "model.dbt_star.my_first_dbt_model"} */
+
+  
+    
+
+    create or replace table `ae-recruitment-sandbox`.`dbt_sandbox16`.`my_first_dbt_model`
+    
+    
+    OPTIONS()
+    as (
+      /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+    );
+  
+[0m06:09:30.829356 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=ae-recruitment-sandbox&j=bq:765ce238-ac71-4c59-ae02-4ef0235c7329:northamerica-northeast1&page=queryresults
+[0m06:09:30.843399 [debug] [Thread-1  ]: finished collecting timing info
+[0m06:09:30.843917 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '58f55463-1c57-41dd-884a-3e806144a50c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111ea8d60>]}
+[0m06:09:30.844181 [info ] [Thread-1  ]: 1 of 2 OK created sql table model dbt_sandbox16.my_first_dbt_model ............. [[32mCREATE TABLE (2.0 rows, 0 processed)[0m in 2.03s]
+[0m06:09:30.844464 [debug] [Thread-1  ]: Finished running node model.dbt_star.my_first_dbt_model
+[0m06:09:30.844851 [debug] [Thread-3  ]: Began running node model.dbt_star.my_second_dbt_model
+[0m06:09:30.845035 [info ] [Thread-3  ]: 2 of 2 START sql view model dbt_sandbox16.my_second_dbt_model .................. [RUN]
+[0m06:09:30.845485 [debug] [Thread-3  ]: Acquiring new bigquery connection "model.dbt_star.my_second_dbt_model"
+[0m06:09:30.845585 [debug] [Thread-3  ]: Began compiling node model.dbt_star.my_second_dbt_model
+[0m06:09:30.845671 [debug] [Thread-3  ]: Compiling model.dbt_star.my_second_dbt_model
+[0m06:09:30.847833 [debug] [Thread-3  ]: Writing injected SQL for node "model.dbt_star.my_second_dbt_model"
+[0m06:09:30.848406 [debug] [Thread-3  ]: finished collecting timing info
+[0m06:09:30.848516 [debug] [Thread-3  ]: Began executing node model.dbt_star.my_second_dbt_model
+[0m06:09:30.863635 [debug] [Thread-3  ]: Writing runtime sql for node "model.dbt_star.my_second_dbt_model"
+[0m06:09:30.864426 [debug] [Thread-3  ]: Opening a new connection, currently in state init
+[0m06:09:30.864617 [debug] [Thread-3  ]: On model.dbt_star.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.3.0", "profile_name": "ae-recruitment-exercise16", "target_name": "dev", "node_id": "model.dbt_star.my_second_dbt_model"} */
+
+
+  create or replace view `ae-recruitment-sandbox`.`dbt_sandbox16`.`my_second_dbt_model`
+  OPTIONS()
+  as -- Use the `ref` function to select from other models
+
+select *
+from `ae-recruitment-sandbox`.`dbt_sandbox16`.`my_first_dbt_model`
+where id = 1;
+
+
+[0m06:09:31.596782 [debug] [Thread-3  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=ae-recruitment-sandbox&j=bq:b19b9157-8145-4565-bddc-cdb45ea95558:northamerica-northeast1&page=queryresults
+[0m06:09:31.598469 [debug] [Thread-3  ]: finished collecting timing info
+[0m06:09:31.599109 [debug] [Thread-3  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '58f55463-1c57-41dd-884a-3e806144a50c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112081a30>]}
+[0m06:09:31.599524 [info ] [Thread-3  ]: 2 of 2 OK created sql view model dbt_sandbox16.my_second_dbt_model ............. [[32mCREATE VIEW (0 processed)[0m in 0.75s]
+[0m06:09:31.599941 [debug] [Thread-3  ]: Finished running node model.dbt_star.my_second_dbt_model
+[0m06:09:31.601367 [debug] [MainThread]: Acquiring new bigquery connection "master"
+[0m06:09:31.601869 [info ] [MainThread]: 
+[0m06:09:31.602086 [info ] [MainThread]: Finished running 1 table model, 1 view model in 0 hours 0 minutes and 4.36 seconds (4.36s).
+[0m06:09:31.602278 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m06:09:31.602381 [debug] [MainThread]: Connection 'model.dbt_star.my_first_dbt_model' was properly closed.
+[0m06:09:31.602464 [debug] [MainThread]: Connection 'model.dbt_star.my_second_dbt_model' was properly closed.
+[0m06:09:31.611882 [info ] [MainThread]: 
+[0m06:09:31.612159 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m06:09:31.612348 [info ] [MainThread]: 
+[0m06:09:31.612486 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
+[0m06:09:31.612857 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111e44880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111e69970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1120865e0>]}
+[0m06:09:31.613035 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-11-23 07:03:04.692484 | ed7b035f-7b75-467b-9b6f-0f35ae148296 ==============================
+[0m07:03:04.692491 [info ] [MainThread]: Running with dbt=1.3.0
+[0m07:03:04.692690 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/jitesh.soni/Documents/Code/dbt_star', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'deps', 'rpc_method': 'deps', 'indirect_selection': 'eager'}
+[0m07:03:04.692753 [debug] [MainThread]: Tracking: tracking
+[0m07:03:04.714053 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103a10d60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1039dabe0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103a09310>]}
+[0m07:03:04.714660 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m07:03:04.715066 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103a10ac0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103a092b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100b1e760>]}
+[0m07:03:04.715196 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-11-23 07:04:13.157033 | 66b771ac-6e4a-470b-9de4-be56345ba7d3 ==============================
+[0m07:04:13.157067 [info ] [MainThread]: Running with dbt=1.3.0
+[0m07:04:13.157412 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/jitesh.soni/Documents/Code/dbt_star', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'indirect_selection': 'eager', 'resource_types': [], 'which': 'build', 'rpc_method': 'build'}
+[0m07:04:13.157494 [debug] [MainThread]: Tracking: tracking
+[0m07:04:13.174889 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108695400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108695580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108695520>]}
+[0m07:04:13.221770 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m07:04:13.221912 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m07:04:13.222108 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.example.example
+
+[0m07:04:13.225661 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '66b771ac-6e4a-470b-9de4-be56345ba7d3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10884dd60>]}
+[0m07:04:13.230736 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '66b771ac-6e4a-470b-9de4-be56345ba7d3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108777e50>]}
+[0m07:04:13.231035 [info ] [MainThread]: Found 2 models, 4 tests, 0 snapshots, 0 analyses, 319 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m07:04:13.231204 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '66b771ac-6e4a-470b-9de4-be56345ba7d3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108777e20>]}
+[0m07:04:13.231915 [info ] [MainThread]: 
+[0m07:04:13.232263 [debug] [MainThread]: Acquiring new bigquery connection "master"
+[0m07:04:13.232734 [debug] [ThreadPool]: Acquiring new bigquery connection "list_ae-recruitment-sandbox"
+[0m07:04:13.232901 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m07:04:14.481791 [debug] [ThreadPool]: Acquiring new bigquery connection "list_ae-recruitment-sandbox_dbt_sandbox16"
+[0m07:04:14.482437 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m07:04:14.788420 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '66b771ac-6e4a-470b-9de4-be56345ba7d3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108686550>]}
+[0m07:04:14.789125 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m07:04:14.789368 [info ] [MainThread]: 
+[0m07:04:14.794181 [debug] [Thread-1  ]: Began running node model.dbt_star.my_first_dbt_model
+[0m07:04:14.794428 [info ] [Thread-1  ]: 1 of 6 START sql table model dbt_sandbox16.my_first_dbt_model .................. [RUN]
+[0m07:04:14.794918 [debug] [Thread-1  ]: Acquiring new bigquery connection "model.dbt_star.my_first_dbt_model"
+[0m07:04:14.795040 [debug] [Thread-1  ]: Began compiling node model.dbt_star.my_first_dbt_model
+[0m07:04:14.795169 [debug] [Thread-1  ]: Compiling model.dbt_star.my_first_dbt_model
+[0m07:04:14.798235 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_star.my_first_dbt_model"
+[0m07:04:14.798896 [debug] [Thread-1  ]: finished collecting timing info
+[0m07:04:14.799064 [debug] [Thread-1  ]: Began executing node model.dbt_star.my_first_dbt_model
+[0m07:04:14.811323 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m07:04:15.168352 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_star.my_first_dbt_model"
+[0m07:04:15.169359 [debug] [Thread-1  ]: On model.dbt_star.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.3.0", "profile_name": "ae-recruitment-exercise16", "target_name": "dev", "node_id": "model.dbt_star.my_first_dbt_model"} */
+
+  
+    
+
+    create or replace table `ae-recruitment-sandbox`.`dbt_sandbox16`.`my_first_dbt_model`
+    
+    
+    OPTIONS()
+    as (
+      /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+    );
+  
+[0m07:04:17.026865 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=ae-recruitment-sandbox&j=bq:8046fe64-11d5-49a9-b1c7-1dbe69b4d83b:northamerica-northeast1&page=queryresults
+[0m07:04:17.049826 [debug] [Thread-1  ]: finished collecting timing info
+[0m07:04:17.050386 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '66b771ac-6e4a-470b-9de4-be56345ba7d3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1088ca130>]}
+[0m07:04:17.050676 [info ] [Thread-1  ]: 1 of 6 OK created sql table model dbt_sandbox16.my_first_dbt_model ............. [[32mCREATE TABLE (2.0 rows, 0 processed)[0m in 2.26s]
+[0m07:04:17.050997 [debug] [Thread-1  ]: Finished running node model.dbt_star.my_first_dbt_model
+[0m07:04:17.051506 [debug] [Thread-3  ]: Began running node test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m07:04:17.051714 [debug] [Thread-4  ]: Began running node test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m07:04:17.051825 [info ] [Thread-3  ]: 2 of 6 START test not_null_my_first_dbt_model_id ............................... [RUN]
+[0m07:04:17.051984 [info ] [Thread-4  ]: 3 of 6 START test unique_my_first_dbt_model_id ................................. [RUN]
+[0m07:04:17.052523 [debug] [Thread-3  ]: Acquiring new bigquery connection "test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m07:04:17.052986 [debug] [Thread-4  ]: Acquiring new bigquery connection "test.dbt_star.unique_my_first_dbt_model_id.16e066b321"
+[0m07:04:17.053106 [debug] [Thread-3  ]: Began compiling node test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m07:04:17.053207 [debug] [Thread-4  ]: Began compiling node test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m07:04:17.053332 [debug] [Thread-3  ]: Compiling test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m07:04:17.053443 [debug] [Thread-4  ]: Compiling test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m07:04:17.064548 [debug] [Thread-3  ]: Writing injected SQL for node "test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m07:04:17.069477 [debug] [Thread-4  ]: Writing injected SQL for node "test.dbt_star.unique_my_first_dbt_model_id.16e066b321"
+[0m07:04:17.071395 [debug] [Thread-4  ]: finished collecting timing info
+[0m07:04:17.071539 [debug] [Thread-4  ]: Began executing node test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m07:04:17.077668 [debug] [Thread-3  ]: finished collecting timing info
+[0m07:04:17.081669 [debug] [Thread-4  ]: Writing runtime sql for node "test.dbt_star.unique_my_first_dbt_model_id.16e066b321"
+[0m07:04:17.081832 [debug] [Thread-3  ]: Began executing node test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m07:04:17.083353 [debug] [Thread-3  ]: Writing runtime sql for node "test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m07:04:17.083817 [debug] [Thread-3  ]: Opening a new connection, currently in state init
+[0m07:04:17.083932 [debug] [Thread-3  ]: On test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710: /* {"app": "dbt", "dbt_version": "1.3.0", "profile_name": "ae-recruitment-exercise16", "target_name": "dev", "node_id": "test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select id
+from `ae-recruitment-sandbox`.`dbt_sandbox16`.`my_first_dbt_model`
+where id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m07:04:17.084360 [debug] [Thread-4  ]: Opening a new connection, currently in state init
+[0m07:04:17.084457 [debug] [Thread-4  ]: On test.dbt_star.unique_my_first_dbt_model_id.16e066b321: /* {"app": "dbt", "dbt_version": "1.3.0", "profile_name": "ae-recruitment-exercise16", "target_name": "dev", "node_id": "test.dbt_star.unique_my_first_dbt_model_id.16e066b321"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+with dbt_test__target as (
+
+  select id as unique_field
+  from `ae-recruitment-sandbox`.`dbt_sandbox16`.`my_first_dbt_model`
+  where id is not null
+
+)
+
+select
+    unique_field,
+    count(*) as n_records
+
+from dbt_test__target
+group by unique_field
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m07:04:18.174690 [debug] [Thread-3  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=ae-recruitment-sandbox&j=bq:a5a6b702-ed57-4412-820a-c6a29443a7e6:northamerica-northeast1&page=queryresults
+[0m07:04:18.178296 [debug] [Thread-3  ]: finished collecting timing info
+[0m07:04:18.179359 [error] [Thread-3  ]: 2 of 6 FAIL 1 not_null_my_first_dbt_model_id ................................... [[31mFAIL 1[0m in 1.13s]
+[0m07:04:18.180010 [debug] [Thread-3  ]: Finished running node test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m07:04:18.197453 [debug] [Thread-4  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=ae-recruitment-sandbox&j=bq:1e78dfaf-4d23-48fb-a211-fb7927814cac:northamerica-northeast1&page=queryresults
+[0m07:04:18.197963 [debug] [Thread-4  ]: finished collecting timing info
+[0m07:04:18.198524 [info ] [Thread-4  ]: 3 of 6 PASS unique_my_first_dbt_model_id ....................................... [[32mPASS[0m in 1.15s]
+[0m07:04:18.198890 [debug] [Thread-4  ]: Finished running node test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m07:04:18.199389 [debug] [Thread-1  ]: Began running node model.dbt_star.my_second_dbt_model
+[0m07:04:18.199673 [info ] [Thread-1  ]: 4 of 6 SKIP relation dbt_sandbox16.my_second_dbt_model ......................... [[33mSKIP[0m]
+[0m07:04:18.200076 [debug] [Thread-1  ]: Finished running node model.dbt_star.my_second_dbt_model
+[0m07:04:18.200446 [debug] [Thread-3  ]: Began running node test.dbt_star.not_null_my_second_dbt_model_id.151b76d778
+[0m07:04:18.200625 [info ] [Thread-3  ]: 5 of 6 SKIP test not_null_my_second_dbt_model_id ............................... [[33mSKIP[0m]
+[0m07:04:18.200805 [debug] [Thread-4  ]: Began running node test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493
+[0m07:04:18.201079 [debug] [Thread-3  ]: Finished running node test.dbt_star.not_null_my_second_dbt_model_id.151b76d778
+[0m07:04:18.201210 [info ] [Thread-4  ]: 6 of 6 SKIP test unique_my_second_dbt_model_id ................................. [[33mSKIP[0m]
+[0m07:04:18.201649 [debug] [Thread-4  ]: Finished running node test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493
+[0m07:04:18.202602 [debug] [MainThread]: Acquiring new bigquery connection "master"
+[0m07:04:18.203054 [info ] [MainThread]: 
+[0m07:04:18.203272 [info ] [MainThread]: Finished running 1 table model, 4 tests, 1 view model in 0 hours 0 minutes and 4.97 seconds (4.97s).
+[0m07:04:18.203458 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m07:04:18.203546 [debug] [MainThread]: Connection 'model.dbt_star.my_first_dbt_model' was properly closed.
+[0m07:04:18.203631 [debug] [MainThread]: Connection 'test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710' was properly closed.
+[0m07:04:18.203713 [debug] [MainThread]: Connection 'test.dbt_star.unique_my_first_dbt_model_id.16e066b321' was properly closed.
+[0m07:04:18.213887 [info ] [MainThread]: 
+[0m07:04:18.214155 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m07:04:18.214336 [info ] [MainThread]: 
+[0m07:04:18.214485 [error] [MainThread]: [31mFailure in test not_null_my_first_dbt_model_id (models/example/schema.yml)[0m
+[0m07:04:18.214660 [error] [MainThread]:   Got 1 result, configured to fail if != 0
+[0m07:04:18.214794 [info ] [MainThread]: 
+[0m07:04:18.214929 [info ] [MainThread]:   compiled Code at target/compiled/dbt_star/models/example/schema.yml/not_null_my_first_dbt_model_id.sql
+[0m07:04:18.215082 [info ] [MainThread]: 
+[0m07:04:18.215217 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=1 SKIP=3 TOTAL=6
+[0m07:04:18.215442 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1089c1f70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1089c1b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1089c1d90>]}
+[0m07:04:18.215607 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-11-23 07:22:43.076456 | 0b84fd2f-fee2-4848-abb2-f38732423a16 ==============================
+[0m07:22:43.076496 [info ] [MainThread]: Running with dbt=1.3.0
+[0m07:22:43.076880 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/jitesh.soni/Documents/Code/dbt_star', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'compile': True, 'which': 'generate', 'rpc_method': 'docs.generate', 'indirect_selection': 'eager'}
+[0m07:22:43.076995 [debug] [MainThread]: Tracking: tracking
+[0m07:22:43.094613 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11235f8e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11235fa60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11235fa00>]}
+[0m07:22:43.143992 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m07:22:43.144132 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m07:22:43.144349 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.example.example
+
+[0m07:22:43.147598 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '0b84fd2f-fee2-4848-abb2-f38732423a16', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1124f10d0>]}
+[0m07:22:43.151958 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0b84fd2f-fee2-4848-abb2-f38732423a16', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11241e370>]}
+[0m07:22:43.152103 [info ] [MainThread]: Found 2 models, 4 tests, 0 snapshots, 0 analyses, 319 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m07:22:43.152245 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0b84fd2f-fee2-4848-abb2-f38732423a16', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112345460>]}
+[0m07:22:43.152949 [info ] [MainThread]: 
+[0m07:22:43.153248 [debug] [MainThread]: Acquiring new bigquery connection "master"
+[0m07:22:43.153675 [debug] [ThreadPool]: Acquiring new bigquery connection "list_ae-recruitment-sandbox_dbt_sandbox16"
+[0m07:22:43.153746 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m07:22:45.082863 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0b84fd2f-fee2-4848-abb2-f38732423a16', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11235fa60>]}
+[0m07:22:45.084399 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m07:22:45.084852 [info ] [MainThread]: 
+[0m07:22:45.091112 [debug] [Thread-1  ]: Began running node model.dbt_star.my_first_dbt_model
+[0m07:22:45.091797 [debug] [Thread-1  ]: Acquiring new bigquery connection "model.dbt_star.my_first_dbt_model"
+[0m07:22:45.091994 [debug] [Thread-1  ]: Began compiling node model.dbt_star.my_first_dbt_model
+[0m07:22:45.092205 [debug] [Thread-1  ]: Compiling model.dbt_star.my_first_dbt_model
+[0m07:22:45.096170 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_star.my_first_dbt_model"
+[0m07:22:45.096770 [debug] [Thread-1  ]: finished collecting timing info
+[0m07:22:45.096937 [debug] [Thread-1  ]: Began executing node model.dbt_star.my_first_dbt_model
+[0m07:22:45.097083 [debug] [Thread-1  ]: finished collecting timing info
+[0m07:22:45.097640 [debug] [Thread-1  ]: Finished running node model.dbt_star.my_first_dbt_model
+[0m07:22:45.098213 [debug] [Thread-3  ]: Began running node model.dbt_star.my_second_dbt_model
+[0m07:22:45.098421 [debug] [Thread-4  ]: Began running node test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m07:22:45.098849 [debug] [Thread-3  ]: Acquiring new bigquery connection "model.dbt_star.my_second_dbt_model"
+[0m07:22:45.098988 [debug] [Thread-2  ]: Began running node test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m07:22:45.099461 [debug] [Thread-4  ]: Acquiring new bigquery connection "test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m07:22:45.099607 [debug] [Thread-3  ]: Began compiling node model.dbt_star.my_second_dbt_model
+[0m07:22:45.100044 [debug] [Thread-2  ]: Acquiring new bigquery connection "test.dbt_star.unique_my_first_dbt_model_id.16e066b321"
+[0m07:22:45.100189 [debug] [Thread-4  ]: Began compiling node test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m07:22:45.100313 [debug] [Thread-3  ]: Compiling model.dbt_star.my_second_dbt_model
+[0m07:22:45.100429 [debug] [Thread-2  ]: Began compiling node test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m07:22:45.100538 [debug] [Thread-4  ]: Compiling test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m07:22:45.102967 [debug] [Thread-3  ]: Writing injected SQL for node "model.dbt_star.my_second_dbt_model"
+[0m07:22:45.103104 [debug] [Thread-2  ]: Compiling test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m07:22:45.114375 [debug] [Thread-2  ]: Writing injected SQL for node "test.dbt_star.unique_my_first_dbt_model_id.16e066b321"
+[0m07:22:45.122670 [debug] [Thread-4  ]: Writing injected SQL for node "test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m07:22:45.122854 [debug] [Thread-3  ]: finished collecting timing info
+[0m07:22:45.122997 [debug] [Thread-3  ]: Began executing node model.dbt_star.my_second_dbt_model
+[0m07:22:45.123096 [debug] [Thread-2  ]: finished collecting timing info
+[0m07:22:45.123202 [debug] [Thread-3  ]: finished collecting timing info
+[0m07:22:45.123341 [debug] [Thread-2  ]: Began executing node test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m07:22:45.123768 [debug] [Thread-3  ]: Finished running node model.dbt_star.my_second_dbt_model
+[0m07:22:45.123870 [debug] [Thread-4  ]: finished collecting timing info
+[0m07:22:45.123953 [debug] [Thread-2  ]: finished collecting timing info
+[0m07:22:45.124175 [debug] [Thread-4  ]: Began executing node test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m07:22:45.124263 [debug] [Thread-1  ]: Began running node test.dbt_star.not_null_my_second_dbt_model_id.151b76d778
+[0m07:22:45.124362 [debug] [Thread-3  ]: Began running node test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493
+[0m07:22:45.124671 [debug] [Thread-2  ]: Finished running node test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m07:22:45.124773 [debug] [Thread-4  ]: finished collecting timing info
+[0m07:22:45.125056 [debug] [Thread-1  ]: Acquiring new bigquery connection "test.dbt_star.not_null_my_second_dbt_model_id.151b76d778"
+[0m07:22:45.125328 [debug] [Thread-3  ]: Acquiring new bigquery connection "test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493"
+[0m07:22:45.125689 [debug] [Thread-4  ]: Finished running node test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m07:22:45.125786 [debug] [Thread-1  ]: Began compiling node test.dbt_star.not_null_my_second_dbt_model_id.151b76d778
+[0m07:22:45.125868 [debug] [Thread-3  ]: Began compiling node test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493
+[0m07:22:45.125999 [debug] [Thread-1  ]: Compiling test.dbt_star.not_null_my_second_dbt_model_id.151b76d778
+[0m07:22:45.126081 [debug] [Thread-3  ]: Compiling test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493
+[0m07:22:45.128847 [debug] [Thread-1  ]: Writing injected SQL for node "test.dbt_star.not_null_my_second_dbt_model_id.151b76d778"
+[0m07:22:45.131550 [debug] [Thread-3  ]: Writing injected SQL for node "test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493"
+[0m07:22:45.131952 [debug] [Thread-1  ]: finished collecting timing info
+[0m07:22:45.132051 [debug] [Thread-3  ]: finished collecting timing info
+[0m07:22:45.132136 [debug] [Thread-1  ]: Began executing node test.dbt_star.not_null_my_second_dbt_model_id.151b76d778
+[0m07:22:45.132227 [debug] [Thread-3  ]: Began executing node test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493
+[0m07:22:45.132316 [debug] [Thread-1  ]: finished collecting timing info
+[0m07:22:45.132411 [debug] [Thread-3  ]: finished collecting timing info
+[0m07:22:45.132735 [debug] [Thread-1  ]: Finished running node test.dbt_star.not_null_my_second_dbt_model_id.151b76d778
+[0m07:22:45.133057 [debug] [Thread-3  ]: Finished running node test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493
+[0m07:22:45.133569 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m07:22:45.133658 [debug] [MainThread]: Connection 'test.dbt_star.not_null_my_second_dbt_model_id.151b76d778' was properly closed.
+[0m07:22:45.133729 [debug] [MainThread]: Connection 'test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493' was properly closed.
+[0m07:22:45.133797 [debug] [MainThread]: Connection 'test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710' was properly closed.
+[0m07:22:45.133859 [debug] [MainThread]: Connection 'test.dbt_star.unique_my_first_dbt_model_id.16e066b321' was properly closed.
+[0m07:22:45.138189 [info ] [MainThread]: Done.
+[0m07:22:45.140323 [debug] [MainThread]: Acquiring new bigquery connection "generate_catalog"
+[0m07:22:45.140406 [info ] [MainThread]: Building catalog
+[0m07:22:45.140671 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m07:22:45.557365 [debug] [ThreadPool]: Acquiring new bigquery connection "ae-recruitment-sandbox.information_schema"
+[0m07:22:45.577670 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m07:22:45.577931 [debug] [ThreadPool]: On ae-recruitment-sandbox.information_schema: /* {"app": "dbt", "dbt_version": "1.3.0", "profile_name": "ae-recruitment-exercise16", "target_name": "dev", "connection_name": "ae-recruitment-sandbox.information_schema"} */
+
+    with tables as (
+        select
+            project_id as table_database,
+            dataset_id as table_schema,
+            table_id as original_table_name,
+
+            concat(project_id, '.', dataset_id, '.', table_id) as relation_id,
+
+            row_count,
+            size_bytes as size_bytes,
+            case
+                when type = 1 then 'table'
+                when type = 2 then 'view'
+                else 'external'
+            end as table_type,
+
+            REGEXP_CONTAINS(table_id, '^.+[0-9]{8}$') and coalesce(type, 0) = 1 as is_date_shard,
+            REGEXP_EXTRACT(table_id, '^(.+)[0-9]{8}$') as shard_base_name,
+            REGEXP_EXTRACT(table_id, '^.+([0-9]{8})$') as shard_name
+
+        from `ae-recruitment-sandbox`.`dbt_sandbox16`.__TABLES__
+        where (upper(dataset_id) = upper('dbt_sandbox16'))
+    ),
+
+    extracted as (
+
+        select *,
+            case
+                when is_date_shard then shard_base_name
+                else original_table_name
+            end as table_name
+
+        from tables
+
+    ),
+
+    unsharded_tables as (
+
+        select
+            table_database,
+            table_schema,
+            table_name,
+            coalesce(table_type, 'external') as table_type,
+            is_date_shard,
+
+            struct(
+                min(shard_name) as shard_min,
+                max(shard_name) as shard_max,
+                count(*) as shard_count
+            ) as table_shards,
+
+            sum(size_bytes) as size_bytes,
+            sum(row_count) as row_count,
+
+            max(relation_id) as relation_id
+
+        from extracted
+        group by 1,2,3,4,5
+
+    ),
+
+    info_schema_columns as (
+
+        select
+            concat(table_catalog, '.', table_schema, '.', table_name) as relation_id,
+            table_catalog as table_database,
+            table_schema,
+            table_name,
+
+            -- use the "real" column name from the paths query below
+            column_name as base_column_name,
+            ordinal_position as column_index,
+
+            is_partitioning_column,
+            clustering_ordinal_position
+
+        from `ae-recruitment-sandbox`.`dbt_sandbox16`.INFORMATION_SCHEMA.COLUMNS
+        where ordinal_position is not null
+
+    ),
+
+    info_schema_column_paths as (
+
+        select
+            concat(table_catalog, '.', table_schema, '.', table_name) as relation_id,
+            field_path as column_name,
+            data_type as column_type,
+            column_name as base_column_name,
+            description as column_comment
+
+        from `ae-recruitment-sandbox`.`dbt_sandbox16`.INFORMATION_SCHEMA.COLUMN_FIELD_PATHS
+
+    ),
+
+    columns as (
+
+        select * except (base_column_name)
+        from info_schema_columns
+        join info_schema_column_paths using (relation_id, base_column_name)
+
+    ),
+
+    column_stats as (
+
+        select
+            table_database,
+            table_schema,
+            table_name,
+            max(relation_id) as relation_id,
+            max(case when is_partitioning_column = 'YES' then 1 else 0 end) = 1 as is_partitioned,
+            max(case when is_partitioning_column = 'YES' then column_name else null end) as partition_column,
+            max(case when clustering_ordinal_position is not null then 1 else 0 end) = 1 as is_clustered,
+            array_to_string(
+                array_agg(
+                    case
+                        when clustering_ordinal_position is not null then column_name
+                        else null
+                    end ignore nulls
+                    order by clustering_ordinal_position
+                ), ', '
+            ) as clustering_columns
+
+        from columns
+        group by 1,2,3
+
+    )
+
+    select
+        unsharded_tables.table_database,
+        unsharded_tables.table_schema,
+        case
+            when is_date_shard then concat(unsharded_tables.table_name, '*')
+            else unsharded_tables.table_name
+        end as table_name,
+        unsharded_tables.table_type,
+
+        -- coalesce name and type for External tables - these columns are not
+        -- present in the COLUMN_FIELD_PATHS resultset
+        coalesce(columns.column_name, '<unknown>') as column_name,
+        -- invent a row number to account for nested fields -- BQ does
+        -- not treat these nested properties as independent fields
+        row_number() over (
+            partition by relation_id
+            order by columns.column_index, columns.column_name
+        ) as column_index,
+        coalesce(columns.column_type, '<unknown>') as column_type,
+        columns.column_comment,
+
+        'Shard count' as `stats__date_shards__label`,
+        table_shards.shard_count as `stats__date_shards__value`,
+        'The number of date shards in this table' as `stats__date_shards__description`,
+        is_date_shard as `stats__date_shards__include`,
+
+        'Shard (min)' as `stats__date_shard_min__label`,
+        table_shards.shard_min as `stats__date_shard_min__value`,
+        'The first date shard in this table' as `stats__date_shard_min__description`,
+        is_date_shard as `stats__date_shard_min__include`,
+
+        'Shard (max)' as `stats__date_shard_max__label`,
+        table_shards.shard_max as `stats__date_shard_max__value`,
+        'The last date shard in this table' as `stats__date_shard_max__description`,
+        is_date_shard as `stats__date_shard_max__include`,
+
+        '# Rows' as `stats__num_rows__label`,
+        row_count as `stats__num_rows__value`,
+        'Approximate count of rows in this table' as `stats__num_rows__description`,
+        (unsharded_tables.table_type = 'table') as `stats__num_rows__include`,
+
+        'Approximate Size' as `stats__num_bytes__label`,
+        size_bytes as `stats__num_bytes__value`,
+        'Approximate size of table as reported by BigQuery' as `stats__num_bytes__description`,
+        (unsharded_tables.table_type = 'table') as `stats__num_bytes__include`,
+
+        'Partitioned By' as `stats__partitioning_type__label`,
+        partition_column as `stats__partitioning_type__value`,
+        'The partitioning column for this table' as `stats__partitioning_type__description`,
+        is_partitioned as `stats__partitioning_type__include`,
+
+        'Clustered By' as `stats__clustering_fields__label`,
+        clustering_columns as `stats__clustering_fields__value`,
+        'The clustering columns for this table' as `stats__clustering_fields__description`,
+        is_clustered as `stats__clustering_fields__include`
+
+    -- join using relation_id (an actual relation, not a shard prefix) to make
+    -- sure that column metadata is picked up through the join. This will only
+    -- return the column information for the "max" table in a date-sharded table set
+    from unsharded_tables
+    left join columns using (relation_id)
+    left join column_stats using (relation_id)
+  
+[0m07:22:47.627882 [debug] [ThreadPool]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=ae-recruitment-sandbox&j=bq:5c0e812d-c138-42fe-8986-d66262e2cc3e:northamerica-northeast1&page=queryresults
+[0m07:22:47.650339 [info ] [MainThread]: Catalog written to /Users/jitesh.soni/Documents/Code/dbt_star/target/catalog.json
+[0m07:22:47.650704 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11235f8e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112551df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112551670>]}
+[0m07:22:47.650899 [debug] [MainThread]: Flushing usage events
+[0m07:22:47.883635 [debug] [MainThread]: Connection 'generate_catalog' was properly closed.
+[0m07:22:47.884031 [debug] [MainThread]: Connection 'ae-recruitment-sandbox.information_schema' was properly closed.
+
+
+============================== 2022-11-23 07:30:46.397239 | 120534c1-24d4-41b5-992d-08bc2aa729b2 ==============================
+[0m07:30:46.397267 [info ] [MainThread]: Running with dbt=1.3.0
+[0m07:30:46.397590 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/jitesh.soni/Documents/Code/dbt_star', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'compile': True, 'which': 'generate', 'rpc_method': 'docs.generate', 'indirect_selection': 'eager'}
+[0m07:30:46.397687 [debug] [MainThread]: Tracking: tracking
+[0m07:30:46.416638 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1095e71c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1095e7340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1095e72e0>]}
+[0m07:30:46.461339 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m07:30:46.461475 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m07:30:46.461669 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.example.example
+
+[0m07:30:46.464921 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '120534c1-24d4-41b5-992d-08bc2aa729b2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1097700d0>]}
+[0m07:30:46.469136 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '120534c1-24d4-41b5-992d-08bc2aa729b2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10969fd00>]}
+[0m07:30:46.469291 [info ] [MainThread]: Found 2 models, 4 tests, 0 snapshots, 0 analyses, 319 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m07:30:46.469406 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '120534c1-24d4-41b5-992d-08bc2aa729b2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10969fd90>]}
+[0m07:30:46.470060 [info ] [MainThread]: 
+[0m07:30:46.470363 [debug] [MainThread]: Acquiring new bigquery connection "master"
+[0m07:30:46.470788 [debug] [ThreadPool]: Acquiring new bigquery connection "list_ae-recruitment-sandbox_dbt_sandbox16"
+[0m07:30:46.470885 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m07:30:47.522105 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '120534c1-24d4-41b5-992d-08bc2aa729b2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109734f70>]}
+[0m07:30:47.523578 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m07:30:47.523941 [info ] [MainThread]: 
+[0m07:30:47.529547 [debug] [Thread-1  ]: Began running node model.dbt_star.my_first_dbt_model
+[0m07:30:47.530201 [debug] [Thread-1  ]: Acquiring new bigquery connection "model.dbt_star.my_first_dbt_model"
+[0m07:30:47.530371 [debug] [Thread-1  ]: Began compiling node model.dbt_star.my_first_dbt_model
+[0m07:30:47.530557 [debug] [Thread-1  ]: Compiling model.dbt_star.my_first_dbt_model
+[0m07:30:47.534911 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_star.my_first_dbt_model"
+[0m07:30:47.535819 [debug] [Thread-1  ]: finished collecting timing info
+[0m07:30:47.535985 [debug] [Thread-1  ]: Began executing node model.dbt_star.my_first_dbt_model
+[0m07:30:47.536142 [debug] [Thread-1  ]: finished collecting timing info
+[0m07:30:47.536764 [debug] [Thread-1  ]: Finished running node model.dbt_star.my_first_dbt_model
+[0m07:30:47.537455 [debug] [Thread-3  ]: Began running node model.dbt_star.my_second_dbt_model
+[0m07:30:47.537950 [debug] [Thread-3  ]: Acquiring new bigquery connection "model.dbt_star.my_second_dbt_model"
+[0m07:30:47.538100 [debug] [Thread-4  ]: Began running node test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m07:30:47.538192 [debug] [Thread-3  ]: Began compiling node model.dbt_star.my_second_dbt_model
+[0m07:30:47.538285 [debug] [Thread-2  ]: Began running node test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m07:30:47.538693 [debug] [Thread-4  ]: Acquiring new bigquery connection "test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m07:30:47.538812 [debug] [Thread-3  ]: Compiling model.dbt_star.my_second_dbt_model
+[0m07:30:47.539175 [debug] [Thread-2  ]: Acquiring new bigquery connection "test.dbt_star.unique_my_first_dbt_model_id.16e066b321"
+[0m07:30:47.539286 [debug] [Thread-4  ]: Began compiling node test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m07:30:47.541926 [debug] [Thread-3  ]: Writing injected SQL for node "model.dbt_star.my_second_dbt_model"
+[0m07:30:47.542098 [debug] [Thread-2  ]: Began compiling node test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m07:30:47.542215 [debug] [Thread-4  ]: Compiling test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m07:30:47.542381 [debug] [Thread-2  ]: Compiling test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m07:30:47.553317 [debug] [Thread-2  ]: Writing injected SQL for node "test.dbt_star.unique_my_first_dbt_model_id.16e066b321"
+[0m07:30:47.559087 [debug] [Thread-3  ]: finished collecting timing info
+[0m07:30:47.561675 [debug] [Thread-4  ]: Writing injected SQL for node "test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m07:30:47.561815 [debug] [Thread-3  ]: Began executing node model.dbt_star.my_second_dbt_model
+[0m07:30:47.561961 [debug] [Thread-3  ]: finished collecting timing info
+[0m07:30:47.562036 [debug] [Thread-2  ]: finished collecting timing info
+[0m07:30:47.562431 [debug] [Thread-3  ]: Finished running node model.dbt_star.my_second_dbt_model
+[0m07:30:47.562545 [debug] [Thread-2  ]: Began executing node test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m07:30:47.562643 [debug] [Thread-4  ]: finished collecting timing info
+[0m07:30:47.562795 [debug] [Thread-2  ]: finished collecting timing info
+[0m07:30:47.562943 [debug] [Thread-4  ]: Began executing node test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m07:30:47.563021 [debug] [Thread-1  ]: Began running node test.dbt_star.not_null_my_second_dbt_model_id.151b76d778
+[0m07:30:47.563113 [debug] [Thread-3  ]: Began running node test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493
+[0m07:30:47.563414 [debug] [Thread-2  ]: Finished running node test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m07:30:47.563501 [debug] [Thread-4  ]: finished collecting timing info
+[0m07:30:47.563772 [debug] [Thread-1  ]: Acquiring new bigquery connection "test.dbt_star.not_null_my_second_dbt_model_id.151b76d778"
+[0m07:30:47.564049 [debug] [Thread-3  ]: Acquiring new bigquery connection "test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493"
+[0m07:30:47.564418 [debug] [Thread-4  ]: Finished running node test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m07:30:47.564502 [debug] [Thread-1  ]: Began compiling node test.dbt_star.not_null_my_second_dbt_model_id.151b76d778
+[0m07:30:47.564581 [debug] [Thread-3  ]: Began compiling node test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493
+[0m07:30:47.564706 [debug] [Thread-1  ]: Compiling test.dbt_star.not_null_my_second_dbt_model_id.151b76d778
+[0m07:30:47.564778 [debug] [Thread-3  ]: Compiling test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493
+[0m07:30:47.567599 [debug] [Thread-1  ]: Writing injected SQL for node "test.dbt_star.not_null_my_second_dbt_model_id.151b76d778"
+[0m07:30:47.570325 [debug] [Thread-3  ]: Writing injected SQL for node "test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493"
+[0m07:30:47.570792 [debug] [Thread-1  ]: finished collecting timing info
+[0m07:30:47.570878 [debug] [Thread-3  ]: finished collecting timing info
+[0m07:30:47.570957 [debug] [Thread-1  ]: Began executing node test.dbt_star.not_null_my_second_dbt_model_id.151b76d778
+[0m07:30:47.571035 [debug] [Thread-3  ]: Began executing node test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493
+[0m07:30:47.571113 [debug] [Thread-1  ]: finished collecting timing info
+[0m07:30:47.571188 [debug] [Thread-3  ]: finished collecting timing info
+[0m07:30:47.571486 [debug] [Thread-1  ]: Finished running node test.dbt_star.not_null_my_second_dbt_model_id.151b76d778
+[0m07:30:47.571773 [debug] [Thread-3  ]: Finished running node test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493
+[0m07:30:47.572250 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m07:30:47.572324 [debug] [MainThread]: Connection 'test.dbt_star.not_null_my_second_dbt_model_id.151b76d778' was properly closed.
+[0m07:30:47.572386 [debug] [MainThread]: Connection 'test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493' was properly closed.
+[0m07:30:47.572442 [debug] [MainThread]: Connection 'test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710' was properly closed.
+[0m07:30:47.572496 [debug] [MainThread]: Connection 'test.dbt_star.unique_my_first_dbt_model_id.16e066b321' was properly closed.
+[0m07:30:47.576957 [info ] [MainThread]: Done.
+[0m07:30:47.578252 [debug] [MainThread]: Acquiring new bigquery connection "generate_catalog"
+[0m07:30:47.578327 [info ] [MainThread]: Building catalog
+[0m07:30:47.578609 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m07:30:48.077489 [debug] [ThreadPool]: Acquiring new bigquery connection "ae-recruitment-sandbox.information_schema"
+[0m07:30:48.088450 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m07:30:48.088662 [debug] [ThreadPool]: On ae-recruitment-sandbox.information_schema: /* {"app": "dbt", "dbt_version": "1.3.0", "profile_name": "ae-recruitment-exercise16", "target_name": "dev", "connection_name": "ae-recruitment-sandbox.information_schema"} */
+
+    with tables as (
+        select
+            project_id as table_database,
+            dataset_id as table_schema,
+            table_id as original_table_name,
+
+            concat(project_id, '.', dataset_id, '.', table_id) as relation_id,
+
+            row_count,
+            size_bytes as size_bytes,
+            case
+                when type = 1 then 'table'
+                when type = 2 then 'view'
+                else 'external'
+            end as table_type,
+
+            REGEXP_CONTAINS(table_id, '^.+[0-9]{8}$') and coalesce(type, 0) = 1 as is_date_shard,
+            REGEXP_EXTRACT(table_id, '^(.+)[0-9]{8}$') as shard_base_name,
+            REGEXP_EXTRACT(table_id, '^.+([0-9]{8})$') as shard_name
+
+        from `ae-recruitment-sandbox`.`dbt_sandbox16`.__TABLES__
+        where (upper(dataset_id) = upper('dbt_sandbox16'))
+    ),
+
+    extracted as (
+
+        select *,
+            case
+                when is_date_shard then shard_base_name
+                else original_table_name
+            end as table_name
+
+        from tables
+
+    ),
+
+    unsharded_tables as (
+
+        select
+            table_database,
+            table_schema,
+            table_name,
+            coalesce(table_type, 'external') as table_type,
+            is_date_shard,
+
+            struct(
+                min(shard_name) as shard_min,
+                max(shard_name) as shard_max,
+                count(*) as shard_count
+            ) as table_shards,
+
+            sum(size_bytes) as size_bytes,
+            sum(row_count) as row_count,
+
+            max(relation_id) as relation_id
+
+        from extracted
+        group by 1,2,3,4,5
+
+    ),
+
+    info_schema_columns as (
+
+        select
+            concat(table_catalog, '.', table_schema, '.', table_name) as relation_id,
+            table_catalog as table_database,
+            table_schema,
+            table_name,
+
+            -- use the "real" column name from the paths query below
+            column_name as base_column_name,
+            ordinal_position as column_index,
+
+            is_partitioning_column,
+            clustering_ordinal_position
+
+        from `ae-recruitment-sandbox`.`dbt_sandbox16`.INFORMATION_SCHEMA.COLUMNS
+        where ordinal_position is not null
+
+    ),
+
+    info_schema_column_paths as (
+
+        select
+            concat(table_catalog, '.', table_schema, '.', table_name) as relation_id,
+            field_path as column_name,
+            data_type as column_type,
+            column_name as base_column_name,
+            description as column_comment
+
+        from `ae-recruitment-sandbox`.`dbt_sandbox16`.INFORMATION_SCHEMA.COLUMN_FIELD_PATHS
+
+    ),
+
+    columns as (
+
+        select * except (base_column_name)
+        from info_schema_columns
+        join info_schema_column_paths using (relation_id, base_column_name)
+
+    ),
+
+    column_stats as (
+
+        select
+            table_database,
+            table_schema,
+            table_name,
+            max(relation_id) as relation_id,
+            max(case when is_partitioning_column = 'YES' then 1 else 0 end) = 1 as is_partitioned,
+            max(case when is_partitioning_column = 'YES' then column_name else null end) as partition_column,
+            max(case when clustering_ordinal_position is not null then 1 else 0 end) = 1 as is_clustered,
+            array_to_string(
+                array_agg(
+                    case
+                        when clustering_ordinal_position is not null then column_name
+                        else null
+                    end ignore nulls
+                    order by clustering_ordinal_position
+                ), ', '
+            ) as clustering_columns
+
+        from columns
+        group by 1,2,3
+
+    )
+
+    select
+        unsharded_tables.table_database,
+        unsharded_tables.table_schema,
+        case
+            when is_date_shard then concat(unsharded_tables.table_name, '*')
+            else unsharded_tables.table_name
+        end as table_name,
+        unsharded_tables.table_type,
+
+        -- coalesce name and type for External tables - these columns are not
+        -- present in the COLUMN_FIELD_PATHS resultset
+        coalesce(columns.column_name, '<unknown>') as column_name,
+        -- invent a row number to account for nested fields -- BQ does
+        -- not treat these nested properties as independent fields
+        row_number() over (
+            partition by relation_id
+            order by columns.column_index, columns.column_name
+        ) as column_index,
+        coalesce(columns.column_type, '<unknown>') as column_type,
+        columns.column_comment,
+
+        'Shard count' as `stats__date_shards__label`,
+        table_shards.shard_count as `stats__date_shards__value`,
+        'The number of date shards in this table' as `stats__date_shards__description`,
+        is_date_shard as `stats__date_shards__include`,
+
+        'Shard (min)' as `stats__date_shard_min__label`,
+        table_shards.shard_min as `stats__date_shard_min__value`,
+        'The first date shard in this table' as `stats__date_shard_min__description`,
+        is_date_shard as `stats__date_shard_min__include`,
+
+        'Shard (max)' as `stats__date_shard_max__label`,
+        table_shards.shard_max as `stats__date_shard_max__value`,
+        'The last date shard in this table' as `stats__date_shard_max__description`,
+        is_date_shard as `stats__date_shard_max__include`,
+
+        '# Rows' as `stats__num_rows__label`,
+        row_count as `stats__num_rows__value`,
+        'Approximate count of rows in this table' as `stats__num_rows__description`,
+        (unsharded_tables.table_type = 'table') as `stats__num_rows__include`,
+
+        'Approximate Size' as `stats__num_bytes__label`,
+        size_bytes as `stats__num_bytes__value`,
+        'Approximate size of table as reported by BigQuery' as `stats__num_bytes__description`,
+        (unsharded_tables.table_type = 'table') as `stats__num_bytes__include`,
+
+        'Partitioned By' as `stats__partitioning_type__label`,
+        partition_column as `stats__partitioning_type__value`,
+        'The partitioning column for this table' as `stats__partitioning_type__description`,
+        is_partitioned as `stats__partitioning_type__include`,
+
+        'Clustered By' as `stats__clustering_fields__label`,
+        clustering_columns as `stats__clustering_fields__value`,
+        'The clustering columns for this table' as `stats__clustering_fields__description`,
+        is_clustered as `stats__clustering_fields__include`
+
+    -- join using relation_id (an actual relation, not a shard prefix) to make
+    -- sure that column metadata is picked up through the join. This will only
+    -- return the column information for the "max" table in a date-sharded table set
+    from unsharded_tables
+    left join columns using (relation_id)
+    left join column_stats using (relation_id)
+  
+[0m07:30:49.970572 [debug] [ThreadPool]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=ae-recruitment-sandbox&j=bq:5ddbf903-ef68-44b2-a484-729fd69daa1f:northamerica-northeast1&page=queryresults
+[0m07:30:50.005016 [info ] [MainThread]: Catalog written to /Users/jitesh.soni/Documents/Code/dbt_star/target/catalog.json
+[0m07:30:50.005598 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109880a30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109880e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1098807c0>]}
+[0m07:30:50.005920 [debug] [MainThread]: Flushing usage events
+[0m07:30:50.252465 [debug] [MainThread]: Connection 'generate_catalog' was properly closed.
+[0m07:30:50.252994 [debug] [MainThread]: Connection 'ae-recruitment-sandbox.information_schema' was properly closed.
+
+
+============================== 2022-11-23 16:39:49.759647 | 6a2adf8c-6217-495d-87f8-e6364f87523b ==============================
+[0m16:39:49.759676 [info ] [MainThread]: Running with dbt=1.3.0
+[0m16:39:49.760006 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/jitesh.soni/Documents/Code/dbt_star', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'compile': True, 'which': 'generate', 'rpc_method': 'docs.generate', 'indirect_selection': 'eager'}
+[0m16:39:49.760109 [debug] [MainThread]: Tracking: tracking
+[0m16:39:49.780217 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108bb31c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108bb3340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108bb32e0>]}
+[0m16:39:49.826273 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:39:49.826430 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:39:49.826634 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.example.example
+
+[0m16:39:49.829821 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6a2adf8c-6217-495d-87f8-e6364f87523b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108d500d0>]}
+[0m16:39:49.834182 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6a2adf8c-6217-495d-87f8-e6364f87523b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108c84c10>]}
+[0m16:39:49.834352 [info ] [MainThread]: Found 2 models, 4 tests, 0 snapshots, 0 analyses, 319 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m16:39:49.834483 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6a2adf8c-6217-495d-87f8-e6364f87523b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10612b370>]}
+[0m16:39:49.835145 [info ] [MainThread]: 
+[0m16:39:49.835453 [debug] [MainThread]: Acquiring new bigquery connection "master"
+[0m16:39:49.835876 [debug] [ThreadPool]: Acquiring new bigquery connection "list_ae-recruitment-sandbox_dbt_sandbox16"
+[0m16:39:49.835988 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m16:39:51.332092 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6a2adf8c-6217-495d-87f8-e6364f87523b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108d14f70>]}
+[0m16:39:51.333609 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m16:39:51.334062 [info ] [MainThread]: 
+[0m16:39:51.343301 [debug] [Thread-1  ]: Began running node model.dbt_star.my_first_dbt_model
+[0m16:39:51.343954 [debug] [Thread-1  ]: Acquiring new bigquery connection "model.dbt_star.my_first_dbt_model"
+[0m16:39:51.344131 [debug] [Thread-1  ]: Began compiling node model.dbt_star.my_first_dbt_model
+[0m16:39:51.344334 [debug] [Thread-1  ]: Compiling model.dbt_star.my_first_dbt_model
+[0m16:39:51.348911 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_star.my_first_dbt_model"
+[0m16:39:51.350044 [debug] [Thread-1  ]: finished collecting timing info
+[0m16:39:51.350208 [debug] [Thread-1  ]: Began executing node model.dbt_star.my_first_dbt_model
+[0m16:39:51.350355 [debug] [Thread-1  ]: finished collecting timing info
+[0m16:39:51.350901 [debug] [Thread-1  ]: Finished running node model.dbt_star.my_first_dbt_model
+[0m16:39:51.351479 [debug] [Thread-3  ]: Began running node model.dbt_star.my_second_dbt_model
+[0m16:39:51.351683 [debug] [Thread-4  ]: Began running node test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m16:39:51.351822 [debug] [Thread-2  ]: Began running node test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m16:39:51.352242 [debug] [Thread-3  ]: Acquiring new bigquery connection "model.dbt_star.my_second_dbt_model"
+[0m16:39:51.352681 [debug] [Thread-4  ]: Acquiring new bigquery connection "test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m16:39:51.353047 [debug] [Thread-2  ]: Acquiring new bigquery connection "test.dbt_star.unique_my_first_dbt_model_id.16e066b321"
+[0m16:39:51.353174 [debug] [Thread-3  ]: Began compiling node model.dbt_star.my_second_dbt_model
+[0m16:39:51.353301 [debug] [Thread-4  ]: Began compiling node test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m16:39:51.353420 [debug] [Thread-2  ]: Began compiling node test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m16:39:51.353535 [debug] [Thread-3  ]: Compiling model.dbt_star.my_second_dbt_model
+[0m16:39:51.353646 [debug] [Thread-4  ]: Compiling test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m16:39:51.353756 [debug] [Thread-2  ]: Compiling test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m16:39:51.356265 [debug] [Thread-3  ]: Writing injected SQL for node "model.dbt_star.my_second_dbt_model"
+[0m16:39:51.367030 [debug] [Thread-2  ]: Writing injected SQL for node "test.dbt_star.unique_my_first_dbt_model_id.16e066b321"
+[0m16:39:51.374858 [debug] [Thread-4  ]: Writing injected SQL for node "test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m16:39:51.375086 [debug] [Thread-3  ]: finished collecting timing info
+[0m16:39:51.375195 [debug] [Thread-3  ]: Began executing node model.dbt_star.my_second_dbt_model
+[0m16:39:51.375290 [debug] [Thread-3  ]: finished collecting timing info
+[0m16:39:51.375648 [debug] [Thread-3  ]: Finished running node model.dbt_star.my_second_dbt_model
+[0m16:39:51.375912 [debug] [Thread-4  ]: finished collecting timing info
+[0m16:39:51.376013 [debug] [Thread-2  ]: finished collecting timing info
+[0m16:39:51.376107 [debug] [Thread-1  ]: Began running node test.dbt_star.not_null_my_second_dbt_model_id.151b76d778
+[0m16:39:51.376183 [debug] [Thread-4  ]: Began executing node test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m16:39:51.376255 [debug] [Thread-3  ]: Began running node test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493
+[0m16:39:51.376339 [debug] [Thread-2  ]: Began executing node test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m16:39:51.376614 [debug] [Thread-1  ]: Acquiring new bigquery connection "test.dbt_star.not_null_my_second_dbt_model_id.151b76d778"
+[0m16:39:51.376704 [debug] [Thread-4  ]: finished collecting timing info
+[0m16:39:51.376971 [debug] [Thread-3  ]: Acquiring new bigquery connection "test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493"
+[0m16:39:51.377056 [debug] [Thread-2  ]: finished collecting timing info
+[0m16:39:51.377134 [debug] [Thread-1  ]: Began compiling node test.dbt_star.not_null_my_second_dbt_model_id.151b76d778
+[0m16:39:51.377444 [debug] [Thread-4  ]: Finished running node test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m16:39:51.377526 [debug] [Thread-3  ]: Began compiling node test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493
+[0m16:39:51.377821 [debug] [Thread-2  ]: Finished running node test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m16:39:51.377905 [debug] [Thread-1  ]: Compiling test.dbt_star.not_null_my_second_dbt_model_id.151b76d778
+[0m16:39:51.378030 [debug] [Thread-3  ]: Compiling test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493
+[0m16:39:51.380860 [debug] [Thread-1  ]: Writing injected SQL for node "test.dbt_star.not_null_my_second_dbt_model_id.151b76d778"
+[0m16:39:51.383421 [debug] [Thread-3  ]: Writing injected SQL for node "test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493"
+[0m16:39:51.383911 [debug] [Thread-1  ]: finished collecting timing info
+[0m16:39:51.383998 [debug] [Thread-3  ]: finished collecting timing info
+[0m16:39:51.384074 [debug] [Thread-1  ]: Began executing node test.dbt_star.not_null_my_second_dbt_model_id.151b76d778
+[0m16:39:51.384159 [debug] [Thread-3  ]: Began executing node test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493
+[0m16:39:51.384240 [debug] [Thread-1  ]: finished collecting timing info
+[0m16:39:51.384319 [debug] [Thread-3  ]: finished collecting timing info
+[0m16:39:51.384618 [debug] [Thread-1  ]: Finished running node test.dbt_star.not_null_my_second_dbt_model_id.151b76d778
+[0m16:39:51.384911 [debug] [Thread-3  ]: Finished running node test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493
+[0m16:39:51.385372 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m16:39:51.385449 [debug] [MainThread]: Connection 'test.dbt_star.not_null_my_second_dbt_model_id.151b76d778' was properly closed.
+[0m16:39:51.385515 [debug] [MainThread]: Connection 'test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493' was properly closed.
+[0m16:39:51.385578 [debug] [MainThread]: Connection 'test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710' was properly closed.
+[0m16:39:51.385639 [debug] [MainThread]: Connection 'test.dbt_star.unique_my_first_dbt_model_id.16e066b321' was properly closed.
+[0m16:39:51.389946 [info ] [MainThread]: Done.
+[0m16:39:51.391222 [debug] [MainThread]: Acquiring new bigquery connection "generate_catalog"
+[0m16:39:51.391307 [info ] [MainThread]: Building catalog
+[0m16:39:51.391578 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m16:39:51.932051 [debug] [ThreadPool]: Acquiring new bigquery connection "ae-recruitment-sandbox.information_schema"
+[0m16:39:51.951830 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m16:39:51.952189 [debug] [ThreadPool]: On ae-recruitment-sandbox.information_schema: /* {"app": "dbt", "dbt_version": "1.3.0", "profile_name": "ae-recruitment-exercise16", "target_name": "dev", "connection_name": "ae-recruitment-sandbox.information_schema"} */
+
+    with tables as (
+        select
+            project_id as table_database,
+            dataset_id as table_schema,
+            table_id as original_table_name,
+
+            concat(project_id, '.', dataset_id, '.', table_id) as relation_id,
+
+            row_count,
+            size_bytes as size_bytes,
+            case
+                when type = 1 then 'table'
+                when type = 2 then 'view'
+                else 'external'
+            end as table_type,
+
+            REGEXP_CONTAINS(table_id, '^.+[0-9]{8}$') and coalesce(type, 0) = 1 as is_date_shard,
+            REGEXP_EXTRACT(table_id, '^(.+)[0-9]{8}$') as shard_base_name,
+            REGEXP_EXTRACT(table_id, '^.+([0-9]{8})$') as shard_name
+
+        from `ae-recruitment-sandbox`.`dbt_sandbox16`.__TABLES__
+        where (upper(dataset_id) = upper('dbt_sandbox16'))
+    ),
+
+    extracted as (
+
+        select *,
+            case
+                when is_date_shard then shard_base_name
+                else original_table_name
+            end as table_name
+
+        from tables
+
+    ),
+
+    unsharded_tables as (
+
+        select
+            table_database,
+            table_schema,
+            table_name,
+            coalesce(table_type, 'external') as table_type,
+            is_date_shard,
+
+            struct(
+                min(shard_name) as shard_min,
+                max(shard_name) as shard_max,
+                count(*) as shard_count
+            ) as table_shards,
+
+            sum(size_bytes) as size_bytes,
+            sum(row_count) as row_count,
+
+            max(relation_id) as relation_id
+
+        from extracted
+        group by 1,2,3,4,5
+
+    ),
+
+    info_schema_columns as (
+
+        select
+            concat(table_catalog, '.', table_schema, '.', table_name) as relation_id,
+            table_catalog as table_database,
+            table_schema,
+            table_name,
+
+            -- use the "real" column name from the paths query below
+            column_name as base_column_name,
+            ordinal_position as column_index,
+
+            is_partitioning_column,
+            clustering_ordinal_position
+
+        from `ae-recruitment-sandbox`.`dbt_sandbox16`.INFORMATION_SCHEMA.COLUMNS
+        where ordinal_position is not null
+
+    ),
+
+    info_schema_column_paths as (
+
+        select
+            concat(table_catalog, '.', table_schema, '.', table_name) as relation_id,
+            field_path as column_name,
+            data_type as column_type,
+            column_name as base_column_name,
+            description as column_comment
+
+        from `ae-recruitment-sandbox`.`dbt_sandbox16`.INFORMATION_SCHEMA.COLUMN_FIELD_PATHS
+
+    ),
+
+    columns as (
+
+        select * except (base_column_name)
+        from info_schema_columns
+        join info_schema_column_paths using (relation_id, base_column_name)
+
+    ),
+
+    column_stats as (
+
+        select
+            table_database,
+            table_schema,
+            table_name,
+            max(relation_id) as relation_id,
+            max(case when is_partitioning_column = 'YES' then 1 else 0 end) = 1 as is_partitioned,
+            max(case when is_partitioning_column = 'YES' then column_name else null end) as partition_column,
+            max(case when clustering_ordinal_position is not null then 1 else 0 end) = 1 as is_clustered,
+            array_to_string(
+                array_agg(
+                    case
+                        when clustering_ordinal_position is not null then column_name
+                        else null
+                    end ignore nulls
+                    order by clustering_ordinal_position
+                ), ', '
+            ) as clustering_columns
+
+        from columns
+        group by 1,2,3
+
+    )
+
+    select
+        unsharded_tables.table_database,
+        unsharded_tables.table_schema,
+        case
+            when is_date_shard then concat(unsharded_tables.table_name, '*')
+            else unsharded_tables.table_name
+        end as table_name,
+        unsharded_tables.table_type,
+
+        -- coalesce name and type for External tables - these columns are not
+        -- present in the COLUMN_FIELD_PATHS resultset
+        coalesce(columns.column_name, '<unknown>') as column_name,
+        -- invent a row number to account for nested fields -- BQ does
+        -- not treat these nested properties as independent fields
+        row_number() over (
+            partition by relation_id
+            order by columns.column_index, columns.column_name
+        ) as column_index,
+        coalesce(columns.column_type, '<unknown>') as column_type,
+        columns.column_comment,
+
+        'Shard count' as `stats__date_shards__label`,
+        table_shards.shard_count as `stats__date_shards__value`,
+        'The number of date shards in this table' as `stats__date_shards__description`,
+        is_date_shard as `stats__date_shards__include`,
+
+        'Shard (min)' as `stats__date_shard_min__label`,
+        table_shards.shard_min as `stats__date_shard_min__value`,
+        'The first date shard in this table' as `stats__date_shard_min__description`,
+        is_date_shard as `stats__date_shard_min__include`,
+
+        'Shard (max)' as `stats__date_shard_max__label`,
+        table_shards.shard_max as `stats__date_shard_max__value`,
+        'The last date shard in this table' as `stats__date_shard_max__description`,
+        is_date_shard as `stats__date_shard_max__include`,
+
+        '# Rows' as `stats__num_rows__label`,
+        row_count as `stats__num_rows__value`,
+        'Approximate count of rows in this table' as `stats__num_rows__description`,
+        (unsharded_tables.table_type = 'table') as `stats__num_rows__include`,
+
+        'Approximate Size' as `stats__num_bytes__label`,
+        size_bytes as `stats__num_bytes__value`,
+        'Approximate size of table as reported by BigQuery' as `stats__num_bytes__description`,
+        (unsharded_tables.table_type = 'table') as `stats__num_bytes__include`,
+
+        'Partitioned By' as `stats__partitioning_type__label`,
+        partition_column as `stats__partitioning_type__value`,
+        'The partitioning column for this table' as `stats__partitioning_type__description`,
+        is_partitioned as `stats__partitioning_type__include`,
+
+        'Clustered By' as `stats__clustering_fields__label`,
+        clustering_columns as `stats__clustering_fields__value`,
+        'The clustering columns for this table' as `stats__clustering_fields__description`,
+        is_clustered as `stats__clustering_fields__include`
+
+    -- join using relation_id (an actual relation, not a shard prefix) to make
+    -- sure that column metadata is picked up through the join. This will only
+    -- return the column information for the "max" table in a date-sharded table set
+    from unsharded_tables
+    left join columns using (relation_id)
+    left join column_stats using (relation_id)
+  
+[0m16:39:55.084083 [debug] [ThreadPool]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=ae-recruitment-sandbox&j=bq:95493adb-45c7-4e6b-9417-c7d9c5c00e26:northamerica-northeast1&page=queryresults
+[0m16:39:55.102645 [info ] [MainThread]: Catalog written to /Users/jitesh.soni/Documents/Code/dbt_star/target/catalog.json
+[0m16:39:55.103032 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108c84b50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108e60ca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108e60760>]}
+[0m16:39:55.103251 [debug] [MainThread]: Flushing usage events
+[0m16:39:55.498305 [debug] [MainThread]: Connection 'generate_catalog' was properly closed.
+[0m16:39:55.498889 [debug] [MainThread]: Connection 'ae-recruitment-sandbox.information_schema' was properly closed.
+
+
+============================== 2022-11-23 16:41:15.316712 | e44adbbe-e68c-484c-8887-a02889bae8c9 ==============================
+[0m16:41:15.316724 [info ] [MainThread]: Running with dbt=1.3.0
+[0m16:41:15.317141 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/jitesh.soni/Documents/Code/dbt_star', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'compile': True, 'which': 'generate', 'rpc_method': 'docs.generate', 'indirect_selection': 'eager'}
+[0m16:41:15.317235 [debug] [MainThread]: Tracking: tracking
+[0m16:41:15.333558 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1075f7490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1075f7610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1075f75b0>]}
+[0m16:41:15.377164 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:41:15.377316 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:41:15.377504 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.example.example
+
+[0m16:41:15.380656 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'e44adbbe-e68c-484c-8887-a02889bae8c9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10779afa0>]}
+[0m16:41:15.384771 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'e44adbbe-e68c-484c-8887-a02889bae8c9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107764040>]}
+[0m16:41:15.384926 [info ] [MainThread]: Found 2 models, 4 tests, 0 snapshots, 0 analyses, 319 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m16:41:15.385054 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e44adbbe-e68c-484c-8887-a02889bae8c9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107758ee0>]}
+[0m16:41:15.385717 [info ] [MainThread]: 
+[0m16:41:15.386013 [debug] [MainThread]: Acquiring new bigquery connection "master"
+[0m16:41:15.386444 [debug] [ThreadPool]: Acquiring new bigquery connection "list_ae-recruitment-sandbox_dbt_sandbox16"
+[0m16:41:15.386553 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m16:41:16.312711 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e44adbbe-e68c-484c-8887-a02889bae8c9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1075c3820>]}
+[0m16:41:16.314012 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m16:41:16.314353 [info ] [MainThread]: 
+[0m16:41:16.319349 [debug] [Thread-1  ]: Began running node model.dbt_star.my_first_dbt_model
+[0m16:41:16.319922 [debug] [Thread-1  ]: Acquiring new bigquery connection "model.dbt_star.my_first_dbt_model"
+[0m16:41:16.320071 [debug] [Thread-1  ]: Began compiling node model.dbt_star.my_first_dbt_model
+[0m16:41:16.320244 [debug] [Thread-1  ]: Compiling model.dbt_star.my_first_dbt_model
+[0m16:41:16.324353 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_star.my_first_dbt_model"
+[0m16:41:16.325257 [debug] [Thread-1  ]: finished collecting timing info
+[0m16:41:16.325406 [debug] [Thread-1  ]: Began executing node model.dbt_star.my_first_dbt_model
+[0m16:41:16.325542 [debug] [Thread-1  ]: finished collecting timing info
+[0m16:41:16.326074 [debug] [Thread-1  ]: Finished running node model.dbt_star.my_first_dbt_model
+[0m16:41:16.326609 [debug] [Thread-3  ]: Began running node model.dbt_star.my_second_dbt_model
+[0m16:41:16.327012 [debug] [Thread-3  ]: Acquiring new bigquery connection "model.dbt_star.my_second_dbt_model"
+[0m16:41:16.327134 [debug] [Thread-4  ]: Began running node test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m16:41:16.327236 [debug] [Thread-3  ]: Began compiling node model.dbt_star.my_second_dbt_model
+[0m16:41:16.327337 [debug] [Thread-2  ]: Began running node test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m16:41:16.327743 [debug] [Thread-4  ]: Acquiring new bigquery connection "test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m16:41:16.327862 [debug] [Thread-3  ]: Compiling model.dbt_star.my_second_dbt_model
+[0m16:41:16.328223 [debug] [Thread-2  ]: Acquiring new bigquery connection "test.dbt_star.unique_my_first_dbt_model_id.16e066b321"
+[0m16:41:16.328353 [debug] [Thread-4  ]: Began compiling node test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m16:41:16.330584 [debug] [Thread-3  ]: Writing injected SQL for node "model.dbt_star.my_second_dbt_model"
+[0m16:41:16.330713 [debug] [Thread-2  ]: Began compiling node test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m16:41:16.330812 [debug] [Thread-4  ]: Compiling test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m16:41:16.330963 [debug] [Thread-2  ]: Compiling test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m16:41:16.339649 [debug] [Thread-2  ]: Writing injected SQL for node "test.dbt_star.unique_my_first_dbt_model_id.16e066b321"
+[0m16:41:16.348351 [debug] [Thread-4  ]: Writing injected SQL for node "test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m16:41:16.348491 [debug] [Thread-3  ]: finished collecting timing info
+[0m16:41:16.348633 [debug] [Thread-3  ]: Began executing node model.dbt_star.my_second_dbt_model
+[0m16:41:16.348730 [debug] [Thread-2  ]: finished collecting timing info
+[0m16:41:16.348832 [debug] [Thread-3  ]: finished collecting timing info
+[0m16:41:16.348936 [debug] [Thread-2  ]: Began executing node test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m16:41:16.349032 [debug] [Thread-4  ]: finished collecting timing info
+[0m16:41:16.349368 [debug] [Thread-3  ]: Finished running node model.dbt_star.my_second_dbt_model
+[0m16:41:16.349470 [debug] [Thread-2  ]: finished collecting timing info
+[0m16:41:16.349567 [debug] [Thread-4  ]: Began executing node test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m16:41:16.349776 [debug] [Thread-1  ]: Began running node test.dbt_star.not_null_my_second_dbt_model_id.151b76d778
+[0m16:41:16.350095 [debug] [Thread-2  ]: Finished running node test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m16:41:16.350176 [debug] [Thread-3  ]: Began running node test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493
+[0m16:41:16.350266 [debug] [Thread-4  ]: finished collecting timing info
+[0m16:41:16.350528 [debug] [Thread-1  ]: Acquiring new bigquery connection "test.dbt_star.not_null_my_second_dbt_model_id.151b76d778"
+[0m16:41:16.350849 [debug] [Thread-3  ]: Acquiring new bigquery connection "test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493"
+[0m16:41:16.351148 [debug] [Thread-4  ]: Finished running node test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m16:41:16.351235 [debug] [Thread-1  ]: Began compiling node test.dbt_star.not_null_my_second_dbt_model_id.151b76d778
+[0m16:41:16.351317 [debug] [Thread-3  ]: Began compiling node test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493
+[0m16:41:16.351452 [debug] [Thread-1  ]: Compiling test.dbt_star.not_null_my_second_dbt_model_id.151b76d778
+[0m16:41:16.351533 [debug] [Thread-3  ]: Compiling test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493
+[0m16:41:16.354173 [debug] [Thread-1  ]: Writing injected SQL for node "test.dbt_star.not_null_my_second_dbt_model_id.151b76d778"
+[0m16:41:16.356600 [debug] [Thread-3  ]: Writing injected SQL for node "test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493"
+[0m16:41:16.356937 [debug] [Thread-1  ]: finished collecting timing info
+[0m16:41:16.357022 [debug] [Thread-3  ]: finished collecting timing info
+[0m16:41:16.357091 [debug] [Thread-1  ]: Began executing node test.dbt_star.not_null_my_second_dbt_model_id.151b76d778
+[0m16:41:16.357175 [debug] [Thread-3  ]: Began executing node test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493
+[0m16:41:16.357253 [debug] [Thread-1  ]: finished collecting timing info
+[0m16:41:16.357330 [debug] [Thread-3  ]: finished collecting timing info
+[0m16:41:16.357617 [debug] [Thread-1  ]: Finished running node test.dbt_star.not_null_my_second_dbt_model_id.151b76d778
+[0m16:41:16.357903 [debug] [Thread-3  ]: Finished running node test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493
+[0m16:41:16.358341 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m16:41:16.358415 [debug] [MainThread]: Connection 'test.dbt_star.not_null_my_second_dbt_model_id.151b76d778' was properly closed.
+[0m16:41:16.358478 [debug] [MainThread]: Connection 'test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493' was properly closed.
+[0m16:41:16.358539 [debug] [MainThread]: Connection 'test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710' was properly closed.
+[0m16:41:16.358600 [debug] [MainThread]: Connection 'test.dbt_star.unique_my_first_dbt_model_id.16e066b321' was properly closed.
+[0m16:41:16.362884 [info ] [MainThread]: Done.
+[0m16:41:16.364247 [debug] [MainThread]: Acquiring new bigquery connection "generate_catalog"
+[0m16:41:16.364321 [info ] [MainThread]: Building catalog
+[0m16:41:16.364569 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m16:41:16.815135 [debug] [ThreadPool]: Acquiring new bigquery connection "ae-recruitment-sandbox.information_schema"
+[0m16:41:16.835310 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m16:41:16.835635 [debug] [ThreadPool]: On ae-recruitment-sandbox.information_schema: /* {"app": "dbt", "dbt_version": "1.3.0", "profile_name": "ae-recruitment-exercise16", "target_name": "dev", "connection_name": "ae-recruitment-sandbox.information_schema"} */
+
+    with tables as (
+        select
+            project_id as table_database,
+            dataset_id as table_schema,
+            table_id as original_table_name,
+
+            concat(project_id, '.', dataset_id, '.', table_id) as relation_id,
+
+            row_count,
+            size_bytes as size_bytes,
+            case
+                when type = 1 then 'table'
+                when type = 2 then 'view'
+                else 'external'
+            end as table_type,
+
+            REGEXP_CONTAINS(table_id, '^.+[0-9]{8}$') and coalesce(type, 0) = 1 as is_date_shard,
+            REGEXP_EXTRACT(table_id, '^(.+)[0-9]{8}$') as shard_base_name,
+            REGEXP_EXTRACT(table_id, '^.+([0-9]{8})$') as shard_name
+
+        from `ae-recruitment-sandbox`.`dbt_sandbox16`.__TABLES__
+        where (upper(dataset_id) = upper('dbt_sandbox16'))
+    ),
+
+    extracted as (
+
+        select *,
+            case
+                when is_date_shard then shard_base_name
+                else original_table_name
+            end as table_name
+
+        from tables
+
+    ),
+
+    unsharded_tables as (
+
+        select
+            table_database,
+            table_schema,
+            table_name,
+            coalesce(table_type, 'external') as table_type,
+            is_date_shard,
+
+            struct(
+                min(shard_name) as shard_min,
+                max(shard_name) as shard_max,
+                count(*) as shard_count
+            ) as table_shards,
+
+            sum(size_bytes) as size_bytes,
+            sum(row_count) as row_count,
+
+            max(relation_id) as relation_id
+
+        from extracted
+        group by 1,2,3,4,5
+
+    ),
+
+    info_schema_columns as (
+
+        select
+            concat(table_catalog, '.', table_schema, '.', table_name) as relation_id,
+            table_catalog as table_database,
+            table_schema,
+            table_name,
+
+            -- use the "real" column name from the paths query below
+            column_name as base_column_name,
+            ordinal_position as column_index,
+
+            is_partitioning_column,
+            clustering_ordinal_position
+
+        from `ae-recruitment-sandbox`.`dbt_sandbox16`.INFORMATION_SCHEMA.COLUMNS
+        where ordinal_position is not null
+
+    ),
+
+    info_schema_column_paths as (
+
+        select
+            concat(table_catalog, '.', table_schema, '.', table_name) as relation_id,
+            field_path as column_name,
+            data_type as column_type,
+            column_name as base_column_name,
+            description as column_comment
+
+        from `ae-recruitment-sandbox`.`dbt_sandbox16`.INFORMATION_SCHEMA.COLUMN_FIELD_PATHS
+
+    ),
+
+    columns as (
+
+        select * except (base_column_name)
+        from info_schema_columns
+        join info_schema_column_paths using (relation_id, base_column_name)
+
+    ),
+
+    column_stats as (
+
+        select
+            table_database,
+            table_schema,
+            table_name,
+            max(relation_id) as relation_id,
+            max(case when is_partitioning_column = 'YES' then 1 else 0 end) = 1 as is_partitioned,
+            max(case when is_partitioning_column = 'YES' then column_name else null end) as partition_column,
+            max(case when clustering_ordinal_position is not null then 1 else 0 end) = 1 as is_clustered,
+            array_to_string(
+                array_agg(
+                    case
+                        when clustering_ordinal_position is not null then column_name
+                        else null
+                    end ignore nulls
+                    order by clustering_ordinal_position
+                ), ', '
+            ) as clustering_columns
+
+        from columns
+        group by 1,2,3
+
+    )
+
+    select
+        unsharded_tables.table_database,
+        unsharded_tables.table_schema,
+        case
+            when is_date_shard then concat(unsharded_tables.table_name, '*')
+            else unsharded_tables.table_name
+        end as table_name,
+        unsharded_tables.table_type,
+
+        -- coalesce name and type for External tables - these columns are not
+        -- present in the COLUMN_FIELD_PATHS resultset
+        coalesce(columns.column_name, '<unknown>') as column_name,
+        -- invent a row number to account for nested fields -- BQ does
+        -- not treat these nested properties as independent fields
+        row_number() over (
+            partition by relation_id
+            order by columns.column_index, columns.column_name
+        ) as column_index,
+        coalesce(columns.column_type, '<unknown>') as column_type,
+        columns.column_comment,
+
+        'Shard count' as `stats__date_shards__label`,
+        table_shards.shard_count as `stats__date_shards__value`,
+        'The number of date shards in this table' as `stats__date_shards__description`,
+        is_date_shard as `stats__date_shards__include`,
+
+        'Shard (min)' as `stats__date_shard_min__label`,
+        table_shards.shard_min as `stats__date_shard_min__value`,
+        'The first date shard in this table' as `stats__date_shard_min__description`,
+        is_date_shard as `stats__date_shard_min__include`,
+
+        'Shard (max)' as `stats__date_shard_max__label`,
+        table_shards.shard_max as `stats__date_shard_max__value`,
+        'The last date shard in this table' as `stats__date_shard_max__description`,
+        is_date_shard as `stats__date_shard_max__include`,
+
+        '# Rows' as `stats__num_rows__label`,
+        row_count as `stats__num_rows__value`,
+        'Approximate count of rows in this table' as `stats__num_rows__description`,
+        (unsharded_tables.table_type = 'table') as `stats__num_rows__include`,
+
+        'Approximate Size' as `stats__num_bytes__label`,
+        size_bytes as `stats__num_bytes__value`,
+        'Approximate size of table as reported by BigQuery' as `stats__num_bytes__description`,
+        (unsharded_tables.table_type = 'table') as `stats__num_bytes__include`,
+
+        'Partitioned By' as `stats__partitioning_type__label`,
+        partition_column as `stats__partitioning_type__value`,
+        'The partitioning column for this table' as `stats__partitioning_type__description`,
+        is_partitioned as `stats__partitioning_type__include`,
+
+        'Clustered By' as `stats__clustering_fields__label`,
+        clustering_columns as `stats__clustering_fields__value`,
+        'The clustering columns for this table' as `stats__clustering_fields__description`,
+        is_clustered as `stats__clustering_fields__include`
+
+    -- join using relation_id (an actual relation, not a shard prefix) to make
+    -- sure that column metadata is picked up through the join. This will only
+    -- return the column information for the "max" table in a date-sharded table set
+    from unsharded_tables
+    left join columns using (relation_id)
+    left join column_stats using (relation_id)
+  
+[0m16:41:18.598598 [debug] [ThreadPool]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=ae-recruitment-sandbox&j=bq:5ac6d006-9969-46a3-9e86-1ab71010e7a5:northamerica-northeast1&page=queryresults
+[0m16:41:18.619045 [info ] [MainThread]: Catalog written to /Users/jitesh.soni/Documents/Code/dbt_star/target/catalog.json
+[0m16:41:18.619470 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1075f7490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1078a4610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1078a4550>]}
+[0m16:41:18.619700 [debug] [MainThread]: Flushing usage events
+[0m16:41:18.879395 [debug] [MainThread]: Connection 'generate_catalog' was properly closed.
+[0m16:41:18.879708 [debug] [MainThread]: Connection 'ae-recruitment-sandbox.information_schema' was properly closed.
+
+
+============================== 2022-11-23 16:45:53.569330 | 23ccef5e-2b40-4e95-875e-12e4bb9ac801 ==============================
+[0m16:45:53.569339 [info ] [MainThread]: Running with dbt=1.3.0
+[0m16:45:53.569537 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/jitesh.soni/Documents/Code/dbt_star', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'deps', 'rpc_method': 'deps', 'indirect_selection': 'eager'}
+[0m16:45:53.569598 [debug] [MainThread]: Tracking: tracking
+[0m16:45:53.585805 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1056c7700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1056b7e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1056cc5b0>]}
+[0m16:45:53.586539 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m16:45:53.586789 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1056cc1f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1056cc5e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1056cca90>]}
+[0m16:45:53.586896 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-11-23 16:45:58.544349 | bcad9589-8139-43a1-bb89-df385a2e2b70 ==============================
+[0m16:45:58.544356 [info ] [MainThread]: Running with dbt=1.3.0
+[0m16:45:58.544557 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/jitesh.soni/Documents/Code/dbt_star', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m16:45:58.544619 [debug] [MainThread]: Tracking: tracking
+[0m16:45:58.561994 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107eebf10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107eca9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107eb9ac0>]}
+[0m16:45:58.888525 [debug] [MainThread]: Executing "git --help"
+[0m16:45:58.912624 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:45:58.912976 [debug] [MainThread]: STDERR: "b''"
+[0m16:45:58.916125 [debug] [MainThread]: Acquiring new bigquery connection "debug"
+[0m16:45:58.916867 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m16:45:59.397541 [debug] [MainThread]: On debug: select 1 as id
+[0m16:46:00.445384 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=ae-recruitment-sandbox&j=bq:33276035-3a03-4a1c-86ff-a8044f2f5a41:northamerica-northeast1&page=queryresults
+[0m16:46:00.447382 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10942a340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10942a430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10942a640>]}
+[0m16:46:00.448721 [debug] [MainThread]: Flushing usage events
+[0m16:46:00.680549 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-11-23 16:46:08.127405 | ad42ddd0-e626-45ab-bf60-7d91eeab5292 ==============================
+[0m16:46:08.127445 [info ] [MainThread]: Running with dbt=1.3.0
+[0m16:46:08.127851 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/jitesh.soni/Documents/Code/dbt_star', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'indirect_selection': 'eager', 'resource_types': [], 'which': 'build', 'rpc_method': 'build'}
+[0m16:46:08.127952 [debug] [MainThread]: Tracking: tracking
+[0m16:46:08.144982 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f9e520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f9e6a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f9e640>]}
+[0m16:46:08.191943 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:46:08.192102 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:46:08.192316 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.example.example
+
+[0m16:46:08.196030 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ad42ddd0-e626-45ab-bf60-7d91eeab5292', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107155e80>]}
+[0m16:46:08.200823 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ad42ddd0-e626-45ab-bf60-7d91eeab5292', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107119c40>]}
+[0m16:46:08.201046 [info ] [MainThread]: Found 2 models, 4 tests, 0 snapshots, 0 analyses, 319 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m16:46:08.201167 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ad42ddd0-e626-45ab-bf60-7d91eeab5292', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106eddfd0>]}
+[0m16:46:08.201936 [info ] [MainThread]: 
+[0m16:46:08.202304 [debug] [MainThread]: Acquiring new bigquery connection "master"
+[0m16:46:08.202863 [debug] [ThreadPool]: Acquiring new bigquery connection "list_ae-recruitment-sandbox"
+[0m16:46:08.203008 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m16:46:09.419422 [debug] [ThreadPool]: Acquiring new bigquery connection "list_ae-recruitment-sandbox_dbt_sandbox16"
+[0m16:46:09.419794 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m16:46:09.656625 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ad42ddd0-e626-45ab-bf60-7d91eeab5292', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f9e730>]}
+[0m16:46:09.657971 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m16:46:09.658339 [info ] [MainThread]: 
+[0m16:46:09.664272 [debug] [Thread-1  ]: Began running node model.dbt_star.my_first_dbt_model
+[0m16:46:09.664704 [info ] [Thread-1  ]: 1 of 6 START sql table model dbt_sandbox16.my_first_dbt_model .................. [RUN]
+[0m16:46:09.665414 [debug] [Thread-1  ]: Acquiring new bigquery connection "model.dbt_star.my_first_dbt_model"
+[0m16:46:09.665574 [debug] [Thread-1  ]: Began compiling node model.dbt_star.my_first_dbt_model
+[0m16:46:09.665769 [debug] [Thread-1  ]: Compiling model.dbt_star.my_first_dbt_model
+[0m16:46:09.669562 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_star.my_first_dbt_model"
+[0m16:46:09.671202 [debug] [Thread-1  ]: finished collecting timing info
+[0m16:46:09.671388 [debug] [Thread-1  ]: Began executing node model.dbt_star.my_first_dbt_model
+[0m16:46:09.685815 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m16:46:09.938614 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_star.my_first_dbt_model"
+[0m16:46:09.939382 [debug] [Thread-1  ]: On model.dbt_star.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.3.0", "profile_name": "ae-recruitment-exercise16", "target_name": "dev", "node_id": "model.dbt_star.my_first_dbt_model"} */
+
+  
+    
+
+    create or replace table `ae-recruitment-sandbox`.`dbt_sandbox16`.`my_first_dbt_model`
+    
+    
+    OPTIONS()
+    as (
+      /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+    );
+  
+[0m16:46:11.790080 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=ae-recruitment-sandbox&j=bq:3e37c831-1d92-440e-8c02-ff369a544794:northamerica-northeast1&page=queryresults
+[0m16:46:11.819060 [debug] [Thread-1  ]: finished collecting timing info
+[0m16:46:11.819783 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'ad42ddd0-e626-45ab-bf60-7d91eeab5292', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107224b20>]}
+[0m16:46:11.820194 [info ] [Thread-1  ]: 1 of 6 OK created sql table model dbt_sandbox16.my_first_dbt_model ............. [[32mCREATE TABLE (2.0 rows, 0 processed)[0m in 2.15s]
+[0m16:46:11.820608 [debug] [Thread-1  ]: Finished running node model.dbt_star.my_first_dbt_model
+[0m16:46:11.821281 [debug] [Thread-3  ]: Began running node test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m16:46:11.821531 [info ] [Thread-3  ]: 2 of 6 START test not_null_my_first_dbt_model_id ............................... [RUN]
+[0m16:46:11.822113 [debug] [Thread-3  ]: Acquiring new bigquery connection "test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m16:46:11.822256 [debug] [Thread-4  ]: Began running node test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m16:46:11.822352 [debug] [Thread-3  ]: Began compiling node test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m16:46:11.822482 [info ] [Thread-4  ]: 3 of 6 START test unique_my_first_dbt_model_id ................................. [RUN]
+[0m16:46:11.822612 [debug] [Thread-3  ]: Compiling test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m16:46:11.823220 [debug] [Thread-4  ]: Acquiring new bigquery connection "test.dbt_star.unique_my_first_dbt_model_id.16e066b321"
+[0m16:46:11.835042 [debug] [Thread-3  ]: Writing injected SQL for node "test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m16:46:11.835204 [debug] [Thread-4  ]: Began compiling node test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m16:46:11.835415 [debug] [Thread-4  ]: Compiling test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m16:46:11.840345 [debug] [Thread-4  ]: Writing injected SQL for node "test.dbt_star.unique_my_first_dbt_model_id.16e066b321"
+[0m16:46:11.840639 [debug] [Thread-3  ]: finished collecting timing info
+[0m16:46:11.840768 [debug] [Thread-3  ]: Began executing node test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m16:46:11.847567 [debug] [Thread-4  ]: finished collecting timing info
+[0m16:46:11.850284 [debug] [Thread-3  ]: Writing runtime sql for node "test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m16:46:11.850372 [debug] [Thread-4  ]: Began executing node test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m16:46:11.851747 [debug] [Thread-4  ]: Writing runtime sql for node "test.dbt_star.unique_my_first_dbt_model_id.16e066b321"
+[0m16:46:11.852284 [debug] [Thread-4  ]: Opening a new connection, currently in state init
+[0m16:46:11.852405 [debug] [Thread-4  ]: On test.dbt_star.unique_my_first_dbt_model_id.16e066b321: /* {"app": "dbt", "dbt_version": "1.3.0", "profile_name": "ae-recruitment-exercise16", "target_name": "dev", "node_id": "test.dbt_star.unique_my_first_dbt_model_id.16e066b321"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+with dbt_test__target as (
+
+  select id as unique_field
+  from `ae-recruitment-sandbox`.`dbt_sandbox16`.`my_first_dbt_model`
+  where id is not null
+
+)
+
+select
+    unique_field,
+    count(*) as n_records
+
+from dbt_test__target
+group by unique_field
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m16:46:11.853155 [debug] [Thread-3  ]: Opening a new connection, currently in state init
+[0m16:46:11.853252 [debug] [Thread-3  ]: On test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710: /* {"app": "dbt", "dbt_version": "1.3.0", "profile_name": "ae-recruitment-exercise16", "target_name": "dev", "node_id": "test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select id
+from `ae-recruitment-sandbox`.`dbt_sandbox16`.`my_first_dbt_model`
+where id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m16:46:12.792496 [debug] [Thread-3  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=ae-recruitment-sandbox&j=bq:7a213ed8-f5f0-4d4f-a580-6378cda394c6:northamerica-northeast1&page=queryresults
+[0m16:46:12.797235 [debug] [Thread-3  ]: finished collecting timing info
+[0m16:46:12.799437 [error] [Thread-3  ]: 2 of 6 FAIL 1 not_null_my_first_dbt_model_id ................................... [[31mFAIL 1[0m in 0.98s]
+[0m16:46:12.800717 [debug] [Thread-3  ]: Finished running node test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m16:46:12.851435 [debug] [Thread-4  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=ae-recruitment-sandbox&j=bq:6a70944e-34dd-48a4-97cf-0e35695e2ac8:northamerica-northeast1&page=queryresults
+[0m16:46:12.852180 [debug] [Thread-4  ]: finished collecting timing info
+[0m16:46:12.852825 [info ] [Thread-4  ]: 3 of 6 PASS unique_my_first_dbt_model_id ....................................... [[32mPASS[0m in 1.03s]
+[0m16:46:12.853233 [debug] [Thread-4  ]: Finished running node test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m16:46:12.853716 [debug] [Thread-1  ]: Began running node model.dbt_star.my_second_dbt_model
+[0m16:46:12.854022 [info ] [Thread-1  ]: 4 of 6 SKIP relation dbt_sandbox16.my_second_dbt_model ......................... [[33mSKIP[0m]
+[0m16:46:12.854475 [debug] [Thread-1  ]: Finished running node model.dbt_star.my_second_dbt_model
+[0m16:46:12.854876 [debug] [Thread-3  ]: Began running node test.dbt_star.not_null_my_second_dbt_model_id.151b76d778
+[0m16:46:12.855032 [debug] [Thread-4  ]: Began running node test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493
+[0m16:46:12.855188 [info ] [Thread-3  ]: 5 of 6 SKIP test not_null_my_second_dbt_model_id ............................... [[33mSKIP[0m]
+[0m16:46:12.855350 [info ] [Thread-4  ]: 6 of 6 SKIP test unique_my_second_dbt_model_id ................................. [[33mSKIP[0m]
+[0m16:46:12.855670 [debug] [Thread-3  ]: Finished running node test.dbt_star.not_null_my_second_dbt_model_id.151b76d778
+[0m16:46:12.855945 [debug] [Thread-4  ]: Finished running node test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493
+[0m16:46:12.857377 [debug] [MainThread]: Acquiring new bigquery connection "master"
+[0m16:46:12.857922 [info ] [MainThread]: 
+[0m16:46:12.858136 [info ] [MainThread]: Finished running 1 table model, 4 tests, 1 view model in 0 hours 0 minutes and 4.66 seconds (4.66s).
+[0m16:46:12.858323 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m16:46:12.858414 [debug] [MainThread]: Connection 'model.dbt_star.my_first_dbt_model' was properly closed.
+[0m16:46:12.858499 [debug] [MainThread]: Connection 'test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710' was properly closed.
+[0m16:46:12.858582 [debug] [MainThread]: Connection 'test.dbt_star.unique_my_first_dbt_model_id.16e066b321' was properly closed.
+[0m16:46:12.867518 [info ] [MainThread]: 
+[0m16:46:12.867770 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m16:46:12.867948 [info ] [MainThread]: 
+[0m16:46:12.868103 [error] [MainThread]: [31mFailure in test not_null_my_first_dbt_model_id (models/example/schema.yml)[0m
+[0m16:46:12.868259 [error] [MainThread]:   Got 1 result, configured to fail if != 0
+[0m16:46:12.868397 [info ] [MainThread]: 
+[0m16:46:12.868533 [info ] [MainThread]:   compiled Code at target/compiled/dbt_star/models/example/schema.yml/not_null_my_first_dbt_model_id.sql
+[0m16:46:12.868685 [info ] [MainThread]: 
+[0m16:46:12.868819 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=1 SKIP=3 TOTAL=6
+[0m16:46:12.869040 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1072cbd00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1072cb430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1072cbca0>]}
+[0m16:46:12.869208 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-11-23 16:47:26.598624 | fc7c6d47-5536-496a-8d2d-9b359232d835 ==============================
+[0m16:47:26.598640 [info ] [MainThread]: Running with dbt=1.3.0
+[0m16:47:26.599048 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/jitesh.soni/Documents/Code/dbt_star', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m16:47:26.599127 [debug] [MainThread]: Tracking: tracking
+[0m16:47:26.621531 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1055d46a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1055d4820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1055d47c0>]}
+[0m16:47:26.667837 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:47:26.667977 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:47:26.668163 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.example.example
+
+[0m16:47:26.671667 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'fc7c6d47-5536-496a-8d2d-9b359232d835', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105779f40>]}
+[0m16:47:26.676406 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'fc7c6d47-5536-496a-8d2d-9b359232d835', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105741040>]}
+[0m16:47:26.676591 [info ] [MainThread]: Found 2 models, 4 tests, 0 snapshots, 0 analyses, 319 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m16:47:26.676719 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'fc7c6d47-5536-496a-8d2d-9b359232d835', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105741070>]}
+[0m16:47:26.677460 [info ] [MainThread]: 
+[0m16:47:26.677816 [debug] [MainThread]: Acquiring new bigquery connection "master"
+[0m16:47:26.678343 [debug] [ThreadPool]: Acquiring new bigquery connection "list_ae-recruitment-sandbox"
+[0m16:47:26.678486 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m16:47:27.818088 [debug] [ThreadPool]: Acquiring new bigquery connection "list_ae-recruitment-sandbox_dbt_sandbox16"
+[0m16:47:27.818298 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m16:47:28.054665 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'fc7c6d47-5536-496a-8d2d-9b359232d835', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1041533d0>]}
+[0m16:47:28.057436 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m16:47:28.058445 [info ] [MainThread]: 
+[0m16:47:28.064139 [debug] [Thread-1  ]: Began running node model.dbt_star.my_first_dbt_model
+[0m16:47:28.064575 [info ] [Thread-1  ]: 1 of 2 START sql table model dbt_sandbox16.my_first_dbt_model .................. [RUN]
+[0m16:47:28.065332 [debug] [Thread-1  ]: Acquiring new bigquery connection "model.dbt_star.my_first_dbt_model"
+[0m16:47:28.065499 [debug] [Thread-1  ]: Began compiling node model.dbt_star.my_first_dbt_model
+[0m16:47:28.065717 [debug] [Thread-1  ]: Compiling model.dbt_star.my_first_dbt_model
+[0m16:47:28.069895 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_star.my_first_dbt_model"
+[0m16:47:28.070803 [debug] [Thread-1  ]: finished collecting timing info
+[0m16:47:28.071004 [debug] [Thread-1  ]: Began executing node model.dbt_star.my_first_dbt_model
+[0m16:47:28.085108 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m16:47:28.377392 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_star.my_first_dbt_model"
+[0m16:47:28.377964 [debug] [Thread-1  ]: On model.dbt_star.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.3.0", "profile_name": "ae-recruitment-exercise16", "target_name": "dev", "node_id": "model.dbt_star.my_first_dbt_model"} */
+
+  
+    
+
+    create or replace table `ae-recruitment-sandbox`.`dbt_sandbox16`.`my_first_dbt_model`
+    
+    
+    OPTIONS()
+    as (
+      /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+    );
+  
+[0m16:47:30.278321 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=ae-recruitment-sandbox&j=bq:a9159576-8e18-4bb3-942e-a1db4007603e:northamerica-northeast1&page=queryresults
+[0m16:47:30.300957 [debug] [Thread-1  ]: finished collecting timing info
+[0m16:47:30.301681 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'fc7c6d47-5536-496a-8d2d-9b359232d835', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105764a00>]}
+[0m16:47:30.302091 [info ] [Thread-1  ]: 1 of 2 OK created sql table model dbt_sandbox16.my_first_dbt_model ............. [[32mCREATE TABLE (2.0 rows, 0 processed)[0m in 2.24s]
+[0m16:47:30.302492 [debug] [Thread-1  ]: Finished running node model.dbt_star.my_first_dbt_model
+[0m16:47:30.303286 [debug] [Thread-3  ]: Began running node model.dbt_star.my_second_dbt_model
+[0m16:47:30.303792 [info ] [Thread-3  ]: 2 of 2 START sql view model dbt_sandbox16.my_second_dbt_model .................. [RUN]
+[0m16:47:30.304429 [debug] [Thread-3  ]: Acquiring new bigquery connection "model.dbt_star.my_second_dbt_model"
+[0m16:47:30.304569 [debug] [Thread-3  ]: Began compiling node model.dbt_star.my_second_dbt_model
+[0m16:47:30.304694 [debug] [Thread-3  ]: Compiling model.dbt_star.my_second_dbt_model
+[0m16:47:30.307724 [debug] [Thread-3  ]: Writing injected SQL for node "model.dbt_star.my_second_dbt_model"
+[0m16:47:30.309836 [debug] [Thread-3  ]: finished collecting timing info
+[0m16:47:30.309978 [debug] [Thread-3  ]: Began executing node model.dbt_star.my_second_dbt_model
+[0m16:47:30.324994 [debug] [Thread-3  ]: Writing runtime sql for node "model.dbt_star.my_second_dbt_model"
+[0m16:47:30.325805 [debug] [Thread-3  ]: Opening a new connection, currently in state init
+[0m16:47:30.325937 [debug] [Thread-3  ]: On model.dbt_star.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.3.0", "profile_name": "ae-recruitment-exercise16", "target_name": "dev", "node_id": "model.dbt_star.my_second_dbt_model"} */
+
+
+  create or replace view `ae-recruitment-sandbox`.`dbt_sandbox16`.`my_second_dbt_model`
+  OPTIONS()
+  as -- Use the `ref` function to select from other models
+
+select *
+from `ae-recruitment-sandbox`.`dbt_sandbox16`.`my_first_dbt_model`
+where id = 1;
+
+
+[0m16:47:31.043565 [debug] [Thread-3  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=ae-recruitment-sandbox&j=bq:c9dec9e0-cd0d-43b0-96d7-198f86eb0381:northamerica-northeast1&page=queryresults
+[0m16:47:31.049017 [debug] [Thread-3  ]: finished collecting timing info
+[0m16:47:31.050025 [debug] [Thread-3  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'fc7c6d47-5536-496a-8d2d-9b359232d835', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1058a5eb0>]}
+[0m16:47:31.050556 [info ] [Thread-3  ]: 2 of 2 OK created sql view model dbt_sandbox16.my_second_dbt_model ............. [[32mCREATE VIEW (0 processed)[0m in 0.75s]
+[0m16:47:31.051113 [debug] [Thread-3  ]: Finished running node model.dbt_star.my_second_dbt_model
+[0m16:47:31.052749 [debug] [MainThread]: Acquiring new bigquery connection "master"
+[0m16:47:31.053344 [info ] [MainThread]: 
+[0m16:47:31.053621 [info ] [MainThread]: Finished running 1 table model, 1 view model in 0 hours 0 minutes and 4.38 seconds (4.38s).
+[0m16:47:31.053871 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m16:47:31.053998 [debug] [MainThread]: Connection 'model.dbt_star.my_first_dbt_model' was properly closed.
+[0m16:47:31.054115 [debug] [MainThread]: Connection 'model.dbt_star.my_second_dbt_model' was properly closed.
+[0m16:47:31.065739 [info ] [MainThread]: 
+[0m16:47:31.066023 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m16:47:31.066248 [info ] [MainThread]: 
+[0m16:47:31.066418 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
+[0m16:47:31.066714 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1055d4e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105899910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1058d1370>]}
+[0m16:47:31.066903 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-11-23 17:32:05.520192 | 7e75b221-ba1d-4be5-9d9e-bbb8883dfbea ==============================
+[0m17:32:05.520198 [info ] [MainThread]: Running with dbt=1.3.0
+[0m17:32:05.520559 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/jitesh.soni/Documents/Code/dbt_star', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m17:32:05.520627 [debug] [MainThread]: Tracking: tracking
+[0m17:32:06.480833 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105a17eb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1059f6310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102b29700>]}
+[0m17:32:06.897941 [debug] [MainThread]: Executing "git --help"
+[0m17:32:06.920671 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:32:06.920996 [debug] [MainThread]: STDERR: "b''"
+[0m17:32:06.925390 [debug] [MainThread]: Acquiring new bigquery connection "debug"
+[0m17:32:06.926118 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:32:08.209802 [debug] [MainThread]: On debug: select 1 as id
+[0m17:32:09.246965 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=ae-recruitment-sandbox&j=bq:b82e15f1-ca96-45a4-b08b-52baa06ce677:northamerica-northeast1&page=queryresults
+[0m17:32:09.249006 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f56520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f56a60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f56670>]}
+[0m17:32:09.250028 [debug] [MainThread]: Flushing usage events
+[0m17:32:09.491193 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-11-23 17:32:16.575570 | dff86e6b-32e7-40ef-9376-705c6471dfdd ==============================
+[0m17:32:16.575600 [info ] [MainThread]: Running with dbt=1.3.0
+[0m17:32:16.575943 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/jitesh.soni/Documents/Code/dbt_star', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'indirect_selection': 'eager', 'resource_types': [], 'which': 'build', 'rpc_method': 'build'}
+[0m17:32:16.576026 [debug] [MainThread]: Tracking: tracking
+[0m17:32:16.594373 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119554310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119554490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119554430>]}
+[0m17:32:16.643173 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 2 files added, 0 files changed.
+[0m17:32:16.643407 [debug] [MainThread]: Partial parsing: added file: dbt_star://models/dbt_sandbox3/schema.yml
+[0m17:32:16.643503 [debug] [MainThread]: Partial parsing: added file: dbt_star://models/dbt_sandbox3/dbt_sandbox3__cust_orders.sql
+[0m17:32:16.651692 [debug] [MainThread]: 1699: static parser successfully parsed dbt_sandbox3/dbt_sandbox3__cust_orders.sql
+[0m17:32:16.667479 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.example.example
+
+[0m17:32:16.670417 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'dff86e6b-32e7-40ef-9376-705c6471dfdd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11973dfa0>]}
+[0m17:32:16.675285 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'dff86e6b-32e7-40ef-9376-705c6471dfdd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119636cd0>]}
+[0m17:32:16.675468 [info ] [MainThread]: Found 3 models, 4 tests, 0 snapshots, 0 analyses, 319 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m17:32:16.675593 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'dff86e6b-32e7-40ef-9376-705c6471dfdd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119636f10>]}
+[0m17:32:16.676356 [info ] [MainThread]: 
+[0m17:32:16.676695 [debug] [MainThread]: Acquiring new bigquery connection "master"
+[0m17:32:16.677176 [debug] [ThreadPool]: Acquiring new bigquery connection "list_ae-recruitment-sandbox"
+[0m17:32:16.677286 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:32:17.792058 [debug] [ThreadPool]: Acquiring new bigquery connection "list_ae-recruitment-sandbox_dbt_sandbox16"
+[0m17:32:17.792254 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m17:32:17.993083 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'dff86e6b-32e7-40ef-9376-705c6471dfdd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11954e070>]}
+[0m17:32:17.993674 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m17:32:17.993881 [info ] [MainThread]: 
+[0m17:32:17.998790 [debug] [Thread-1  ]: Began running node model.dbt_star.my_first_dbt_model
+[0m17:32:17.999052 [info ] [Thread-1  ]: 1 of 6 START sql table model dbt_sandbox16.my_first_dbt_model .................. [RUN]
+[0m17:32:17.999592 [debug] [Thread-1  ]: Acquiring new bigquery connection "model.dbt_star.my_first_dbt_model"
+[0m17:32:17.999712 [debug] [Thread-1  ]: Began compiling node model.dbt_star.my_first_dbt_model
+[0m17:32:17.999839 [debug] [Thread-1  ]: Compiling model.dbt_star.my_first_dbt_model
+[0m17:32:18.002760 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_star.my_first_dbt_model"
+[0m17:32:18.003338 [debug] [Thread-1  ]: finished collecting timing info
+[0m17:32:18.003461 [debug] [Thread-1  ]: Began executing node model.dbt_star.my_first_dbt_model
+[0m17:32:18.015344 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m17:32:18.319083 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_star.my_first_dbt_model"
+[0m17:32:18.319662 [debug] [Thread-1  ]: On model.dbt_star.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.3.0", "profile_name": "ae-recruitment-exercise16", "target_name": "dev", "node_id": "model.dbt_star.my_first_dbt_model"} */
+
+  
+    
+
+    create or replace table `ae-recruitment-sandbox`.`dbt_sandbox16`.`my_first_dbt_model`
+    
+    
+    OPTIONS()
+    as (
+      /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+    );
+  
+[0m17:32:19.980254 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=ae-recruitment-sandbox&j=bq:1182dcef-c52a-48a6-8606-b8898118716e:northamerica-northeast1&page=queryresults
+[0m17:32:20.006406 [debug] [Thread-1  ]: finished collecting timing info
+[0m17:32:20.007102 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'dff86e6b-32e7-40ef-9376-705c6471dfdd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1197e7fa0>]}
+[0m17:32:20.007481 [info ] [Thread-1  ]: 1 of 6 OK created sql table model dbt_sandbox16.my_first_dbt_model ............. [[32mCREATE TABLE (2.0 rows, 0 processed)[0m in 2.01s]
+[0m17:32:20.007857 [debug] [Thread-1  ]: Finished running node model.dbt_star.my_first_dbt_model
+[0m17:32:20.008502 [debug] [Thread-3  ]: Began running node test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m17:32:20.008703 [debug] [Thread-4  ]: Began running node test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m17:32:20.008810 [info ] [Thread-3  ]: 2 of 6 START test not_null_my_first_dbt_model_id ............................... [RUN]
+[0m17:32:20.008929 [info ] [Thread-4  ]: 3 of 6 START test unique_my_first_dbt_model_id ................................. [RUN]
+[0m17:32:20.009376 [debug] [Thread-3  ]: Acquiring new bigquery connection "test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m17:32:20.009774 [debug] [Thread-4  ]: Acquiring new bigquery connection "test.dbt_star.unique_my_first_dbt_model_id.16e066b321"
+[0m17:32:20.009900 [debug] [Thread-3  ]: Began compiling node test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m17:32:20.010026 [debug] [Thread-4  ]: Began compiling node test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m17:32:20.010142 [debug] [Thread-3  ]: Compiling test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m17:32:20.010229 [debug] [Thread-4  ]: Compiling test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m17:32:20.021261 [debug] [Thread-3  ]: Writing injected SQL for node "test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m17:32:20.025975 [debug] [Thread-4  ]: Writing injected SQL for node "test.dbt_star.unique_my_first_dbt_model_id.16e066b321"
+[0m17:32:20.026659 [debug] [Thread-3  ]: finished collecting timing info
+[0m17:32:20.026788 [debug] [Thread-3  ]: Began executing node test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m17:32:20.032481 [debug] [Thread-4  ]: finished collecting timing info
+[0m17:32:20.036387 [debug] [Thread-3  ]: Writing runtime sql for node "test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m17:32:20.036475 [debug] [Thread-4  ]: Began executing node test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m17:32:20.037818 [debug] [Thread-4  ]: Writing runtime sql for node "test.dbt_star.unique_my_first_dbt_model_id.16e066b321"
+[0m17:32:20.038251 [debug] [Thread-3  ]: Opening a new connection, currently in state init
+[0m17:32:20.038346 [debug] [Thread-4  ]: Opening a new connection, currently in state init
+[0m17:32:20.038442 [debug] [Thread-3  ]: On test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710: /* {"app": "dbt", "dbt_version": "1.3.0", "profile_name": "ae-recruitment-exercise16", "target_name": "dev", "node_id": "test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select id
+from `ae-recruitment-sandbox`.`dbt_sandbox16`.`my_first_dbt_model`
+where id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m17:32:20.038526 [debug] [Thread-4  ]: On test.dbt_star.unique_my_first_dbt_model_id.16e066b321: /* {"app": "dbt", "dbt_version": "1.3.0", "profile_name": "ae-recruitment-exercise16", "target_name": "dev", "node_id": "test.dbt_star.unique_my_first_dbt_model_id.16e066b321"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+with dbt_test__target as (
+
+  select id as unique_field
+  from `ae-recruitment-sandbox`.`dbt_sandbox16`.`my_first_dbt_model`
+  where id is not null
+
+)
+
+select
+    unique_field,
+    count(*) as n_records
+
+from dbt_test__target
+group by unique_field
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m17:32:20.968085 [debug] [Thread-3  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=ae-recruitment-sandbox&j=bq:7403d1a2-c1f1-4cae-b00d-7819cc6ff2c0:northamerica-northeast1&page=queryresults
+[0m17:32:20.972853 [debug] [Thread-3  ]: finished collecting timing info
+[0m17:32:20.975312 [error] [Thread-3  ]: 2 of 6 FAIL 1 not_null_my_first_dbt_model_id ................................... [[31mFAIL 1[0m in 0.97s]
+[0m17:32:20.976577 [debug] [Thread-3  ]: Finished running node test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710
+[0m17:32:21.021552 [debug] [Thread-4  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=ae-recruitment-sandbox&j=bq:3b7adb23-0554-4b82-bcc4-2cf8857bb215:northamerica-northeast1&page=queryresults
+[0m17:32:21.022222 [debug] [Thread-4  ]: finished collecting timing info
+[0m17:32:21.022982 [info ] [Thread-4  ]: 3 of 6 PASS unique_my_first_dbt_model_id ....................................... [[32mPASS[0m in 1.01s]
+[0m17:32:21.023489 [debug] [Thread-4  ]: Finished running node test.dbt_star.unique_my_first_dbt_model_id.16e066b321
+[0m17:32:21.024068 [debug] [Thread-1  ]: Began running node model.dbt_star.my_second_dbt_model
+[0m17:32:21.024570 [info ] [Thread-1  ]: 4 of 6 SKIP relation dbt_sandbox16.my_second_dbt_model ......................... [[33mSKIP[0m]
+[0m17:32:21.025286 [debug] [Thread-1  ]: Finished running node model.dbt_star.my_second_dbt_model
+[0m17:32:21.025881 [debug] [Thread-3  ]: Began running node test.dbt_star.not_null_my_second_dbt_model_id.151b76d778
+[0m17:32:21.026088 [debug] [Thread-4  ]: Began running node test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493
+[0m17:32:21.026265 [info ] [Thread-3  ]: 5 of 6 SKIP test not_null_my_second_dbt_model_id ............................... [[33mSKIP[0m]
+[0m17:32:21.026475 [info ] [Thread-4  ]: 6 of 6 SKIP test unique_my_second_dbt_model_id ................................. [[33mSKIP[0m]
+[0m17:32:21.026844 [debug] [Thread-3  ]: Finished running node test.dbt_star.not_null_my_second_dbt_model_id.151b76d778
+[0m17:32:21.027173 [debug] [Thread-4  ]: Finished running node test.dbt_star.unique_my_second_dbt_model_id.57a0f8c493
+[0m17:32:21.028588 [debug] [MainThread]: Acquiring new bigquery connection "master"
+[0m17:32:21.029168 [info ] [MainThread]: 
+[0m17:32:21.029429 [info ] [MainThread]: Finished running 1 table model, 4 tests, 1 view model in 0 hours 0 minutes and 4.35 seconds (4.35s).
+[0m17:32:21.029670 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:32:21.029791 [debug] [MainThread]: Connection 'model.dbt_star.my_first_dbt_model' was properly closed.
+[0m17:32:21.029904 [debug] [MainThread]: Connection 'test.dbt_star.not_null_my_first_dbt_model_id.5fb22c2710' was properly closed.
+[0m17:32:21.030018 [debug] [MainThread]: Connection 'test.dbt_star.unique_my_first_dbt_model_id.16e066b321' was properly closed.
+[0m17:32:21.039322 [info ] [MainThread]: 
+[0m17:32:21.039549 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m17:32:21.039747 [info ] [MainThread]: 
+[0m17:32:21.039909 [error] [MainThread]: [31mFailure in test not_null_my_first_dbt_model_id (models/example/schema.yml)[0m
+[0m17:32:21.040077 [error] [MainThread]:   Got 1 result, configured to fail if != 0
+[0m17:32:21.040230 [info ] [MainThread]: 
+[0m17:32:21.040385 [info ] [MainThread]:   compiled Code at target/compiled/dbt_star/models/example/schema.yml/not_null_my_first_dbt_model_id.sql
+[0m17:32:21.040549 [info ] [MainThread]: 
+[0m17:32:21.040706 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=1 SKIP=3 TOTAL=6
+[0m17:32:21.040950 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1196d54c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1198bd5b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1198bd250>]}
+[0m17:32:21.041146 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-11-23 17:33:17.286491 | 5850495f-44f5-4610-bf5e-e5421ea6e27e ==============================
+[0m17:33:17.286514 [info ] [MainThread]: Running with dbt=1.3.0
+[0m17:33:17.286897 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/jitesh.soni/Documents/Code/dbt_star', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m17:33:17.286976 [debug] [MainThread]: Tracking: tracking
+[0m17:33:17.301382 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f1dca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f1de20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f1ddc0>]}
+[0m17:33:17.354462 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m17:33:17.354615 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m17:33:17.354849 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.example.example
+
+[0m17:33:17.358487 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '5850495f-44f5-4610-bf5e-e5421ea6e27e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1070b50d0>]}
+[0m17:33:17.363669 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '5850495f-44f5-4610-bf5e-e5421ea6e27e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106fc5c10>]}
+[0m17:33:17.363876 [info ] [MainThread]: Found 3 models, 4 tests, 0 snapshots, 0 analyses, 319 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m17:33:17.364008 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5850495f-44f5-4610-bf5e-e5421ea6e27e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106fc5c40>]}
+[0m17:33:17.364929 [info ] [MainThread]: 
+[0m17:33:17.365478 [debug] [MainThread]: Acquiring new bigquery connection "master"
+[0m17:33:17.366239 [debug] [ThreadPool]: Acquiring new bigquery connection "list_ae-recruitment-sandbox"
+[0m17:33:17.366336 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:33:18.491114 [debug] [ThreadPool]: Acquiring new bigquery connection "list_ae-recruitment-sandbox_dbt_sandbox16"
+[0m17:33:18.491600 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m17:33:18.702651 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5850495f-44f5-4610-bf5e-e5421ea6e27e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f1deb0>]}
+[0m17:33:18.703957 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m17:33:18.704386 [info ] [MainThread]: 
+[0m17:33:18.709950 [debug] [Thread-1  ]: Began running node model.dbt_star.my_first_dbt_model
+[0m17:33:18.710355 [info ] [Thread-1  ]: 1 of 2 START sql table model dbt_sandbox16.my_first_dbt_model .................. [RUN]
+[0m17:33:18.711133 [debug] [Thread-1  ]: Acquiring new bigquery connection "model.dbt_star.my_first_dbt_model"
+[0m17:33:18.711316 [debug] [Thread-1  ]: Began compiling node model.dbt_star.my_first_dbt_model
+[0m17:33:18.711525 [debug] [Thread-1  ]: Compiling model.dbt_star.my_first_dbt_model
+[0m17:33:18.716321 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_star.my_first_dbt_model"
+[0m17:33:18.717473 [debug] [Thread-1  ]: finished collecting timing info
+[0m17:33:18.717651 [debug] [Thread-1  ]: Began executing node model.dbt_star.my_first_dbt_model
+[0m17:33:18.732460 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m17:33:18.992012 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_star.my_first_dbt_model"
+[0m17:33:18.992614 [debug] [Thread-1  ]: On model.dbt_star.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.3.0", "profile_name": "ae-recruitment-exercise16", "target_name": "dev", "node_id": "model.dbt_star.my_first_dbt_model"} */
+
+  
+    
+
+    create or replace table `ae-recruitment-sandbox`.`dbt_sandbox16`.`my_first_dbt_model`
+    
+    
+    OPTIONS()
+    as (
+      /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+    );
+  
+[0m17:33:20.925441 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=ae-recruitment-sandbox&j=bq:4705391f-4af9-4e80-bc93-ba5b2d2766c8:northamerica-northeast1&page=queryresults
+[0m17:33:20.948347 [debug] [Thread-1  ]: finished collecting timing info
+[0m17:33:20.949104 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5850495f-44f5-4610-bf5e-e5421ea6e27e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10718d6a0>]}
+[0m17:33:20.949483 [info ] [Thread-1  ]: 1 of 2 OK created sql table model dbt_sandbox16.my_first_dbt_model ............. [[32mCREATE TABLE (2.0 rows, 0 processed)[0m in 2.24s]
+[0m17:33:20.949857 [debug] [Thread-1  ]: Finished running node model.dbt_star.my_first_dbt_model
+[0m17:33:20.950309 [debug] [Thread-3  ]: Began running node model.dbt_star.my_second_dbt_model
+[0m17:33:20.950704 [info ] [Thread-3  ]: 2 of 2 START sql view model dbt_sandbox16.my_second_dbt_model .................. [RUN]
+[0m17:33:20.951356 [debug] [Thread-3  ]: Acquiring new bigquery connection "model.dbt_star.my_second_dbt_model"
+[0m17:33:20.951494 [debug] [Thread-3  ]: Began compiling node model.dbt_star.my_second_dbt_model
+[0m17:33:20.951617 [debug] [Thread-3  ]: Compiling model.dbt_star.my_second_dbt_model
+[0m17:33:20.954459 [debug] [Thread-3  ]: Writing injected SQL for node "model.dbt_star.my_second_dbt_model"
+[0m17:33:20.955486 [debug] [Thread-3  ]: finished collecting timing info
+[0m17:33:20.955606 [debug] [Thread-3  ]: Began executing node model.dbt_star.my_second_dbt_model
+[0m17:33:20.971224 [debug] [Thread-3  ]: Writing runtime sql for node "model.dbt_star.my_second_dbt_model"
+[0m17:33:20.971782 [debug] [Thread-3  ]: Opening a new connection, currently in state init
+[0m17:33:20.971907 [debug] [Thread-3  ]: On model.dbt_star.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.3.0", "profile_name": "ae-recruitment-exercise16", "target_name": "dev", "node_id": "model.dbt_star.my_second_dbt_model"} */
+
+
+  create or replace view `ae-recruitment-sandbox`.`dbt_sandbox16`.`my_second_dbt_model`
+  OPTIONS()
+  as -- Use the `ref` function to select from other models
+
+select *
+from `ae-recruitment-sandbox`.`dbt_sandbox16`.`my_first_dbt_model`
+where id = 1;
+
+
+[0m17:33:21.803381 [debug] [Thread-3  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=ae-recruitment-sandbox&j=bq:c198753e-3119-49a6-916d-38ff124b1b28:northamerica-northeast1&page=queryresults
+[0m17:33:21.807330 [debug] [Thread-3  ]: finished collecting timing info
+[0m17:33:21.808375 [debug] [Thread-3  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5850495f-44f5-4610-bf5e-e5421ea6e27e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10712e2e0>]}
+[0m17:33:21.808923 [info ] [Thread-3  ]: 2 of 2 OK created sql view model dbt_sandbox16.my_second_dbt_model ............. [[32mCREATE VIEW (0 processed)[0m in 0.86s]
+[0m17:33:21.809432 [debug] [Thread-3  ]: Finished running node model.dbt_star.my_second_dbt_model
+[0m17:33:21.811118 [debug] [MainThread]: Acquiring new bigquery connection "master"
+[0m17:33:21.811808 [info ] [MainThread]: 
+[0m17:33:21.812110 [info ] [MainThread]: Finished running 1 table model, 1 view model in 0 hours 0 minutes and 4.45 seconds (4.45s).
+[0m17:33:21.812373 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:33:21.812499 [debug] [MainThread]: Connection 'model.dbt_star.my_first_dbt_model' was properly closed.
+[0m17:33:21.812614 [debug] [MainThread]: Connection 'model.dbt_star.my_second_dbt_model' was properly closed.
+[0m17:33:21.824528 [info ] [MainThread]: 
+[0m17:33:21.824774 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m17:33:21.824984 [info ] [MainThread]: 
+[0m17:33:21.825149 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
+[0m17:33:21.825399 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f1de20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106fc5c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10709fa00>]}
+[0m17:33:21.825588 [debug] [MainThread]: Flushing usage events
