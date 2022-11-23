@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  - name: stg_ecommerce__orders
+    description: data
+    columns:
+      - name: order_id
+        description: data
+        tests:
+          - not_null
+      - name: customer_id
+        description: data
+      - name: order_status
+        description: data
+      - name: order_purchase_timestamp
+        description: data
+      - name: order_approved_at
+        description: data
+      - name: order_delivered_carrier_date
+        description: data
+      - name: order_delivered_customer_date
+        description: data
+      - name: order_estimated_delivery_date
+        description: data

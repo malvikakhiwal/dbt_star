@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  - name: stg_ecommerce__order_items
+    config:
+      tags: "contains_pii"
+    description: data
+    columns:
+      - name: order_id
+        description: data
+        tests:
+          - not_null
+      - name: order_item_id
+        description: data
+      - name: product_id
+        description: data
+      - name: seller_id
+        description: data
+      - name: shipping_limit_date
+        description: data
+      - name: price
+        description: data
+      - name: freight_value
+        description: data

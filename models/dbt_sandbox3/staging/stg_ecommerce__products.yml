@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: stg_ecommerce__products
+    description: data
+    columns:
+      - name: product_id
+        description: data
+        tests:
+          - unique
+          - not_null
+      - name: product_category_name
+        description: data
+      - name: product_name_lenght
+        description: data
+      - name: product_description_lenght
+        description: data
+      - name: product_photos_qty
+        description: data
+      - name: product_weight_g
+        description: data
+      - name: product_length_cm
+        description: data
+      - name: product_height_cm
+        description: data
+      - name: product_width_cm
+        description: data

@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: stg_ecommerce__customers
+    config:
+      tags: "contains_pii"
+    description: data
+    columns:
+      - name: customer_unique_id
+        description: 'bye'
+        tests:
+          - not_null
+      - name: customer_id
+        description: data
+        tests:
+          - unique
+          - not_null
+      - name: customer_zip_code_prefix
+        description: data
+      - name: customer_city
+        description: data
+      - name: customer_state
+        description: data

@@ -1,0 +1,62 @@
+version: 2
+
+sources:
+  - name: stg_ecommerce
+    description: Assessment for Montreal Analytics
+    database: ae-recruitment-sandbox
+    schema: raw
+    tables:
+      - name: customers
+        identifier: customers
+        description: A dimension table that list all customers of e-commerce company
+        columns:
+          - name: customer_id
+          - name: customer_unique_id
+          - name: customer_zip_code_prefix
+          - name: customer_city
+          - name: customer_state
+      - name: orders
+        identifier: orders
+        description: A collection of all orders that happened
+        columns:
+          - name: order_id
+          - name: customer_id
+          - name: order_status
+          - name: order_purchase_timestamp
+          - name: order_approved_at
+          - name: order_delivered_carrier_date
+          - name: order_delivered_customer_date
+          - name: order_estimated_delivery_date
+      - name: order_items
+        identifier: order_items
+        description: A table containing order item information
+        columns:
+          - name: order_id
+          - name: order_item_id
+          - name: product_id
+          - name: seller_id
+          - name: shipping_limit_date	
+          - name: price
+          - name: freight_value
+      - name: products
+        identifier: products
+        description: A dimensional table containing all e-commerce company products
+        columns:
+          - name: product_id
+          - name: product_category_name
+          - name: product_name_lenght
+          - name: product_description_lenght
+          - name: product_photos_qty
+          - name: product_weight_g
+          - name: product_length_cm
+          - name: product_height_cm
+          - name: product_width_cm
+      - name: payments
+        identifier: payments
+        description: A table containing all payments information
+        columns:
+          - name: order_id
+          - name: payment_sequential
+          - name: payment_type
+          - name: payment_installments
+          - name: payment_value
