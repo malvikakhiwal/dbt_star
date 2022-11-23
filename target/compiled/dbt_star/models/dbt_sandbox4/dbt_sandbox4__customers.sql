@@ -1,4 +1,4 @@
-{{ config(materialized='table') }}
+
 
 with cust_orders AS (
     SELECT customer_unique_id

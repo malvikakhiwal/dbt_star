@@ -1,4 +1,13 @@
-{{ config(materialized='table') }}
+
+  
+    
+
+    create or replace table `ae-recruitment-sandbox`.`dbt_sandbox16`.`dbt_sandbox4__customers`
+    
+    
+    OPTIONS()
+    as (
+      
 
 with cust_orders AS (
     SELECT customer_unique_id
@@ -33,3 +42,5 @@ GROUP BY customer_unique_id
         )
 
 SELECT * FROM final
+    );
+  
