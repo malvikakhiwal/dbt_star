@@ -1,0 +1,273 @@
+ae-recruitment-exercise1:
+  outputs:
+    dev:
+      dataset: dbt_sandbox1
+      location: northamerica-northeast1
+      method: oauth
+      priority: interactive
+      project: ae-recruitment-sandbox
+      retries: 1
+      threads: 4
+      timeout_seconds: 300
+      type: bigquery
+  target: dev
+ae-recruitment-exercise10:
+  outputs:
+    dev:
+      dataset: dbt_sandbox10
+      location: northamerica-northeast1
+      method: oauth
+      priority: interactive
+      project: ae-recruitment-sandbox
+      retries: 1
+      threads: 4
+      timeout_seconds: 300
+      type: bigquery
+  target: dev
+ae-recruitment-exercise11:
+  outputs:
+    dev:
+      dataset: dbt_sandbox11
+      location: northamerica-northeast1
+      method: oauth
+      priority: interactive
+      project: ae-recruitment-sandbox
+      retries: 1
+      threads: 4
+      timeout_seconds: 300
+      type: bigquery
+  target: dev
+ae-recruitment-exercise12:
+  outputs:
+    dev:
+      dataset: dbt_sandbox12
+      location: northamerica-northeast1
+      method: oauth
+      priority: interactive
+      project: ae-recruitment-sandbox
+      retries: 1
+      threads: 4
+      timeout_seconds: 300
+      type: bigquery
+  target: dev
+ae-recruitment-exercise13:
+  outputs:
+    dev:
+      dataset: dbt_sandbox13
+      location: northamerica-northeast1
+      method: oauth
+      priority: interactive
+      project: ae-recruitment-sandbox
+      retries: 1
+      threads: 4
+      timeout_seconds: 300
+      type: bigquery
+  target: dev
+ae-recruitment-exercise14:
+  outputs:
+    dev:
+      dataset: dbt_sandbox14
+      location: northamerica-northeast1
+      method: oauth
+      priority: interactive
+      project: ae-recruitment-sandbox
+      retries: 1
+      threads: 4
+      timeout_seconds: 300
+      type: bigquery
+  target: dev
+ae-recruitment-exercise15:
+  outputs:
+    dev:
+      dataset: dbt_sandbox15
+      location: northamerica-northeast1
+      method: oauth
+      priority: interactive
+      project: ae-recruitment-sandbox
+      retries: 1
+      threads: 4
+      timeout_seconds: 300
+      type: bigquery
+  target: dev
+ae-recruitment-exercise16:
+  outputs:
+    dev:
+      dataset: dbt_sandbox16
+      location: northamerica-northeast1
+      method: oauth
+      priority: interactive
+      project: ae-recruitment-sandbox
+      retries: 1
+      threads: 4
+      timeout_seconds: 300
+      type: bigquery
+  target: dev
+ae-recruitment-exercise17:
+  outputs:
+    dev:
+      dataset: dbt_sandbox17
+      location: northamerica-northeast1
+      method: oauth
+      priority: interactive
+      project: ae-recruitment-sandbox
+      retries: 1
+      threads: 4
+      timeout_seconds: 300
+      type: bigquery
+  target: dev
+ae-recruitment-exercise18:
+  outputs:
+    dev:
+      dataset: dbt_sandbox18
+      location: northamerica-northeast1
+      method: oauth
+      priority: interactive
+      project: ae-recruitment-sandbox
+      retries: 1
+      threads: 4
+      timeout_seconds: 300
+      type: bigquery
+  target: dev
+ae-recruitment-exercise19:
+  outputs:
+    dev:
+      dataset: dbt_sandbox19
+      location: northamerica-northeast1
+      method: oauth
+      priority: interactive
+      project: ae-recruitment-sandbox
+      retries: 1
+      threads: 4
+      timeout_seconds: 300
+      type: bigquery
+  target: dev
+ae-recruitment-exercise2:
+  outputs:
+    dev:
+      dataset: dbt_sandbox2
+      location: northamerica-northeast1
+      method: oauth
+      priority: interactive
+      project: ae-recruitment-sandbox
+      retries: 1
+      threads: 4
+      timeout_seconds: 300
+      type: bigquery
+  target: dev
+ae-recruitment-exercise20:
+  outputs:
+    dev:
+      dataset: dbt_sandbox20
+      location: northamerica-northeast1
+      method: oauth
+      priority: interactive
+      project: ae-recruitment-sandbox
+      retries: 1
+      threads: 4
+      timeout_seconds: 300
+      type: bigquery
+  target: dev
+ae-recruitment-exercise3:
+  outputs:
+    dev:
+      dataset: dbt_sandbox3
+      location: northamerica-northeast1
+      method: oauth
+      priority: interactive
+      project: ae-recruitment-sandbox
+      retries: 1
+      threads: 4
+      timeout_seconds: 300
+      type: bigquery
+  target: dev
+ae-recruitment-exercise4:
+  outputs:
+    dev:
+      dataset: dbt_sandbox4
+      location: northamerica-northeast1
+      method: oauth
+      priority: interactive
+      project: ae-recruitment-sandbox
+      retries: 1
+      threads: 4
+      timeout_seconds: 300
+      type: bigquery
+  target: dev
+ae-recruitment-exercise5:
+  outputs:
+    dev:
+      dataset: dbt_sandbox5
+      location: northamerica-northeast1
+      method: oauth
+      priority: interactive
+      project: ae-recruitment-sandbox
+      retries: 1
+      threads: 4
+      timeout_seconds: 300
+      type: bigquery
+  target: dev
+ae-recruitment-exercise6:
+  outputs:
+    dev:
+      dataset: dbt_sandbox6
+      location: northamerica-northeast1
+      method: oauth
+      priority: interactive
+      project: ae-recruitment-sandbox
+      retries: 1
+      threads: 4
+      timeout_seconds: 300
+      type: bigquery
+  target: dev
+ae-recruitment-exercise7:
+  outputs:
+    dev:
+      dataset: dbt_sandbox7
+      location: northamerica-northeast1
+      method: oauth
+      priority: interactive
+      project: ae-recruitment-sandbox
+      retries: 1
+      threads: 4
+      timeout_seconds: 300
+      type: bigquery
+  target: dev
+ae-recruitment-exercise8:
+  outputs:
+    dev:
+      dataset: dbt_sandbox8
+      location: northamerica-northeast1
+      method: oauth
+      priority: interactive
+      project: ae-recruitment-sandbox
+      retries: 1
+      threads: 4
+      timeout_seconds: 300
+      type: bigquery
+  target: dev
+ae-recruitment-exercise9:
+  outputs:
+    dev:
+      dataset: dbt_sandbox9
+      location: northamerica-northeast1
+      method: oauth
+      priority: interactive
+      project: ae-recruitment-sandbox
+      retries: 1
+      threads: 4
+      timeout_seconds: 300
+      type: bigquery
+  target: dev
+dbt_star:
+  outputs:
+    dev:
+      dataset: ae-recruitment-sandbox
+      job_execution_timeout_seconds: 1200
+      job_retries: 1
+      location: US
+      method: oauth
+      priority: interactive
+      project: ae-recruitment-sandbox
+      threads: 1
+      type: bigquery
+  target: dev
