@@ -1,0 +1,22 @@
+name: pre-commit
+
+on:
+  pull_request:
+  push:
+  branches: [main]
+
+jobs:
+  pre-commit:
+  runs-on: ubuntu-latest
+  steps:
+  - uses: actions/checkout@v2
+  - uses: actions/setup-python@v2
+  - id: file_changes
+    uses: trilom/file-changes-action@v1.2.4
+    with:
+      output: ' '
+  - uses: Montreal-Analytics/dbt-gloss@v1.0.0
+    env:
+      DB_PASSWORD: ${{ secrets.SuperSecret }}
+    with:
+      args: run --files ${{ steps.file_changes.outputs.files}}
