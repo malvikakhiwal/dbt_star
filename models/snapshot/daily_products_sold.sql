@@ -48,7 +48,7 @@ left join
     fct_sales
     on
         snapshot_day = cast(order_purchase_timestamp as date)
-    and date_dim_product.product_id = fct_sales.product_id
+        and date_dim_product.product_id = fct_sales.product_id
 where
     -- Filter the date dimension to give it a relevant time window
     snapshot_day >= (

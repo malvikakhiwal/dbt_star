@@ -9,6 +9,7 @@ order_items as (
 rank_product_purchased_per_customer as (
     select
         order_items.*,
+        customers.customer_unique_id,
         date_diff(
             cast(order_delivered_customer_date as date), cast(order_purchase_timestamp as date), day
         ) as purchase_delivery_diff,
