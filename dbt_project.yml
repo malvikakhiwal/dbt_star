@@ -70,4 +70,8 @@ models:
       # Default materialization of utils should be tables
       +materialized: table
 
+    intermediate:
+      # Default materialization of intermediate should be tables
+      +materialized: table
+
 

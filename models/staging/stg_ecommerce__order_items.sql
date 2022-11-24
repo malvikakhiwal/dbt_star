@@ -4,7 +4,7 @@ with order_items as (
 
 final as (
     select
-        order_id, --primary key
+        order_id,
         order_item_id,
         product_id,
         seller_id,

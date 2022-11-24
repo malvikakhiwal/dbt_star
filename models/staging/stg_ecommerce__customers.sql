@@ -4,13 +4,21 @@ with customers as (
 
 final as (
     select
-        customer_unique_id, --primary key
+        customer_unique_id,
         customer_id,
         customer_zip_code_prefix,
         customer_city,
-        customer_state
+        customer_state,
+        row_number()over(partition by customer_unique_id) as dedupe
 
     from customers
 )
 
-select * from final
+select 
+        customer_unique_id,
+        customer_id,
+        customer_zip_code_prefix,
+        customer_city,
+        customer_state,
+from final
+where dedupe =1

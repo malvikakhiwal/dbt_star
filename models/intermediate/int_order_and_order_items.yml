@@ -1,0 +1,15 @@
+version: 2
+
+models:
+
+  - name: int_order_and_order_items.sql
+    description: 'Intermedidate table with data about order and order details'
+    columns:
+      - name: order_id
+        description: 'order_id'
+        tests:
+          - not_null
+      - name: customer_id
+        description: 'customer_id'
+        tests:
+          - not_null

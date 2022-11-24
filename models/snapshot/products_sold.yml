@@ -1,0 +1,13 @@
+version: 2
+
+models:
+
+  - name: snapshot
+    description: 'Incremental periodic snapshot table'
+    columns:
+      - name: date_day
+        description: 'All days'
+      - name: product_id
+        description: 'Product identifier'
+      - name: total_units_sold
+        description: 'number of units sold of this product'
