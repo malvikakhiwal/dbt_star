@@ -10,6 +10,12 @@ models:
         tests:
           - not_null
           - unique
+      - name: customer_city
+        description: 'customer city'
+      - name: customer_state
+        description: 'customer state'
+      - name: customer_zip_code_prefix
+        description: 'customer zip code'
       - name: num_orders
         description: 'number of orders placed by customer'
       - name: earliest_order

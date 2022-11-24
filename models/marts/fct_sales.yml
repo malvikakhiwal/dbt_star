@@ -1,0 +1,17 @@
+version: 2
+
+models:
+
+  - name: fct_sales
+    description: 'Transactional Fact Sales Table'
+    columns:
+      - name: customer_unique_id
+        description: 'Granularity on this column'
+        tests:
+          - not_null
+      - name: product_id
+        description: 'product identifier'
+      - name: new_or_repeat_purchase
+        description: 'new_or_repeat_purchase identifier'
+      - name: purchase_delivery_diff
+        description: 'Days difference between purchase and delivery'
