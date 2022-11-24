@@ -12,9 +12,7 @@ products_orders as (
         products.product_id,
         order_id,
         price,
-        product_length_cm,
-        product_width_cm,
-        product_height_cm
+        coalesce(round((product_length_cm * product_width_cm * product_height_cm), 2), 0) as product_volume_cu_cm
     from products
     left join order_items
         on products.product_id = order_items.product_id
@@ -24,14 +22,14 @@ products_orders as (
 aggregated as (
     select
         product_id,
-        coalesce(round((product_length_cm * product_width_cm * product_height_cm), 2), 0) as product_volume_cu_cm,
+        product_volume_cu_cm,
         count(order_id) as total_units_sold,
         round(sum(price), 2) as revenue
     from products_orders
-    group by product_id, coalesce(round((product_length_cm * product_width_cm * product_height_cm), 2), 0)
+    group by product_id, product_volume_cu_cm
 )
 ,
-top_ten_products as (
+products_ranked as (
     select
         product_id,
         total_units_sold,
@@ -48,8 +46,7 @@ final as (select
     product_volume_cu_cm,
     case when ranking <= 10 then 'true'
         else 'false' end as in_top_ten
-    from top_ten_products
-    order by ranking
+    from products_ranked
 )
 
 select * from final
