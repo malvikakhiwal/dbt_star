@@ -32,7 +32,7 @@ query-comment:
 
 # Variables
 vars:
-  util_days_start_date: "1970-01-01"
+  util_days_start_date: "2016-01-01"
 
 
 # Configuring models
