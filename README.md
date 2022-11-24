@@ -20,26 +20,10 @@ rm -rf venv_dbt_star && virtualenv -p /Library/Frameworks/Python.framework/Versi
 
 pip install -r requirements.txt && dbt clean && dbt debug && dbt deps && pre-commit run --hook-stage manual sqlfluff-fix --all-files && pre-commit run --hook-stage manual sqlfluff-lint --all-files
 
-
 pre-commit run --hook-stage manual sqlfluff-lint --all-files
 
 
-
-git push origin HEAD:add_liniting 
-
-
-
-pre-commit run --hook-stage commit sqlfluff-lint --all-files
-
-pre-commit run --hook-stage manual sqlfluff-lint --all-files
-
-pre-commit run --hook-stage manual sqlfluff-fix --all-files
-
-dbt clean && dbt debug && dbt deps
-
-pip install -r requirements.txt
-
-# Run SQLFluff fix against all files
+### Run SQLFluff fix against all files
 pre-commit run --hook-stage manual sqlfluff-fix --all-files
 
 
@@ -94,30 +78,3 @@ pre-commit run --hook-stage push sqlfluff-lint --all-files
 pre-commit run --hook-stage manual sqlfluff-fix --all-files
 ```
  
-
-### Working with YAMLLint
-- YAMLLint is configured as a pre-commit, so in most cases no explicit commands are needed. This will only list errors and will not fix any errors if found.
-- If you would like to run YAMLLint manually, you can do so with the following command which will run it through pre-commit.
-```
-pre-commit run --hook-stage push yamllint
-```
- 
-
-### Working with dbt-gloss
-- dbt-gloss is configured as a set of pre-commit hooks, so in most cases no explicit commands are needed. These hooks will ensure the dbt project is following standard convention. This will only list errors and will not fix any errors if found.
-- If you would like to run dbt-gloss manually, you can do so with the following command which will run it through pre-commit.
-```
-pre-commit run <dbt-gloss hook_id> --all-files --hook-stage push
-```
- 
-
-### Working with dbt-coverage
-- dbt-coverage is a single CLI tool which checks your dbt project for missing documentation and tests. More info found [here](https://github.com/slidoapp/dbt-coverage).
-- The command `dbt docs generate` must be run first.
-- Once installed, there are 2 main commands to generate test and doc coverage reports:
-  - Test Coverage: `dbt-coverage compute test --cov-report coverage-test.json`
-  - Doc Coverage: `dbt-coverage compute docs --cov-report coverage-doc.json`
-    - Optionally, you may make the run fail if you add `--cov-fail-under 0.5` (range between 0 and 1) to the end of the command, where 0.5 means you must have at least 50% of all docs/tests covered.
-- More advanced commands are available in the docs linked above
- 
-&nbsp;
