@@ -2,7 +2,7 @@ version: 2
 
 models:
 
-  - name: int_order_and_order_items.sql
+  - name: int_order_and_order_items
     description: 'Intermedidate table with data about order and order details'
     columns:
       - name: order_id

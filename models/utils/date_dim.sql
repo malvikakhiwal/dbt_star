@@ -1,6 +1,6 @@
 {% if target.type == 'bigquery' %}
-    {% set util_days_start_date = "date('" ~ var('util_days_start_date') ~ "')" %}
-    {% set util_days_end_date = 'current_date() + 1' %}
+{% set util_days_start_date = "date('" ~ var('util_days_start_date') ~ "')" %}
+{% set util_days_end_date = 'current_date() + 1' %}
 
 {% elif target.type == 'snowflake' %}
 {% set util_days_start_date = "'" ~ var('util_days_start_date') ~ "'::date" %}

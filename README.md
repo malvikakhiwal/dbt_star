@@ -24,9 +24,9 @@ pre-commit run --hook-stage manual sqlfluff-lint --all-files
 
 
 ### Run SQLFluff fix against all files
-pre-commit run --hook-stage manual sqlfluff-fix --all-files
+pre-commit run --hook-stage manual sqlfluff-fix --all-files 
+dbt build && dbt run
 
-dbt debug && dbt build
 
 
 

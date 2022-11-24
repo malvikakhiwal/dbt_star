@@ -21,29 +21,35 @@ dedupe_customers as (
     from customers
 )
 ,
-cust_orders AS (
-    SELECT customer_unique_id
-      , product_id
-      , order_purchase_timestamp
-      , order_delivered_customer_date
-      , ROW_NUMBER() OVER(PARTITION BY customer_unique_id, product_id ORDER BY order_purchase_timestamp) as purchase_number
-FROM dedupe_customers
-LEFT JOIN orders
-  ON dedupe_customers.customer_id = orders.customer_id
-JOIN order_items
-      ON orders.order_id = order_items.order_id
-WHERE dedupe = 1
+cust_orders as (
+    select
+        customer_unique_id,
+        product_id,
+        order_purchase_timestamp,
+        order_delivered_customer_date,
+        row_number() over(
+            partition by customer_unique_id, product_id order by order_purchase_timestamp
+        ) as purchase_number
+    from dedupe_customers
+    left join orders
+              on dedupe_customers.customer_id = orders.customer_id
+    inner join order_items
+               on orders.order_id = order_items.order_id
+    where dedupe = 1
 )
 
 ,
 final as (
-    SELECT customer_unique_id
-      , product_id
-      , CASE WHEN purchase_number = 1 THEN 'New'
-             ELSE 'Repeat' END AS new_or_repeat_purchase
-      , DATE_DIFF(CAST(order_delivered_customer_date AS DATE), CAST(order_purchase_timestamp AS DATE), day) as purchase_delivery_diff
-FROM cust_orders
+    select
+        customer_unique_id,
+        product_id,
+        case when purchase_number = 1 then 'New'
+            else 'Repeat' end as new_or_repeat_purchase,
+        date_diff(
+            cast(order_delivered_customer_date as date), cast(order_purchase_timestamp as date), day
+        ) as purchase_delivery_diff
+    from cust_orders
 )
 
-SELECT *
-FROM final
+select *
+from final
