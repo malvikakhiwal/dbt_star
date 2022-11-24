@@ -2,11 +2,13 @@ version: 2
 
 models:
 
-  - name: snapshot
+  - name: daily_products_sold
     description: 'Incremental periodic snapshot table'
     columns:
-      - name: date_day
+      - name: snapshot_day
         description: 'All days'
+        tests:
+          - not_null
       - name: product_id
         description: 'Product identifier'
       - name: total_units_sold

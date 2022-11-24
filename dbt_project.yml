@@ -74,4 +74,8 @@ models:
       # Default materialization of intermediate should be tables
       +materialized: table
 
+    snapshot:
+      # Default materialization of intermediate should be tables
+      +materialized: table
+
 
