@@ -51,6 +51,7 @@ Once everything has been setup, try running the following commands:
 - dbt run
 - dbt test
 
+dbt debug && dbt build
 
 
 ### SQL Styleguide + dbt Best Practices
