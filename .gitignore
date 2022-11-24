@@ -9,6 +9,7 @@ venv/
 env/
 dbt-env/
 .dbtenv/
+venv_dbt_star/
 
 # mac
 .DS_Store

@@ -1,0 +1,11 @@
+# dbt output files
+target/
+logs/
+
+# dependencies and virtualenvs
+dbt_packages/
+venv_dbt_star/
+
+# other
+etc/
+macros/
