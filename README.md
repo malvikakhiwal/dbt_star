@@ -5,7 +5,7 @@ Welcome to your new dbt project!
 Try running the following commands:
 - dbt run
 - dbt test
-
+- dbt clean && dbt deps && dbt build && dbt run
 
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
@@ -20,12 +20,9 @@ rm -rf venv_dbt_star && virtualenv -p /Library/Frameworks/Python.framework/Versi
 
 pip install -r requirements.txt && dbt clean && dbt debug && dbt deps && pre-commit run --hook-stage manual sqlfluff-fix --all-files && pre-commit run --hook-stage manual sqlfluff-lint --all-files
 
-pre-commit run --hook-stage manual sqlfluff-lint --all-files
-
-
 ### Run SQLFluff fix against all files
 pre-commit run --hook-stage manual sqlfluff-fix --all-files 
-dbt build && dbt run
+
 
 
 
