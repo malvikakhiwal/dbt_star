@@ -1,0 +1,22 @@
+version: 2
+
+models:
+
+  - name: dim_customers
+    description: 'Dimension with customers data'
+    columns:
+      - name: customer_unique_id
+        description: 'Granularity on this column'
+        tests:
+          - not_null
+          - unique
+      - name: num_orders
+        description: 'number of orders placed by customer'
+      - name: earliest_order
+        description: 'Date of first order placed'
+      - name: recent_order
+        description: 'Date of most recent order placed'
+      - name: total_orders_value
+        description: 'Value of orders til date'
+      - name: most_expensive_order_value
+        description: 'Value of most expensive order'
