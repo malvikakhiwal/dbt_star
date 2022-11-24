@@ -5,7 +5,7 @@ models:
   - name: fct_sales
     description: 'Transactional Fact Sales Table'
     columns:
-      - name: customer_unique_id
+      - name: order_id
         description: 'Granularity on this column'
         tests:
           - not_null
