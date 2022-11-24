@@ -25,6 +25,16 @@ clean-targets:         # directories to be removed by `dbt clean`
   - "dbt_packages"
 
 
+# Add a dynamic query comment providing context of execution
+query-comment:
+  comment: "{{ query_comment(node) }}"
+  append: true
+
+# Variables
+vars:
+  util_days_start_date: "1970-01-01"
+
+
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
 
@@ -55,5 +65,9 @@ models:
     staging:
       # Default materialization of staging should be views
       +materialized: view
+
+    utils:
+      # Default materialization of utils should be tables
+      +materialized: table
 
 
